@@ -1,0 +1,1233 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Windows 的可靠文件复制                              
+-------------------------------------------------------------------------------
+
+  开始时间: Fri Apr 21 21:35:28 2017
+
+        源: C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\
+      目标: C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\RihicoWeb\Umbraco_Client\
+
+      文件: *.*
+	    
+      选项: *.* /S /E /COPY:DAT /IS /IT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   0	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\
+	  新目录           7	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Application\
+	    新文件    		   13503	Extensions.js  0%  100%  
+	    新文件    		    2417	HistoryManager.js  0%  100%  
+	    新文件    		     839	NamespaceManager.js  0%  100%  
+	    新文件    		   21957	UmbracoApplicationActions.js  0%  100%  
+	    新文件    		   12833	UmbracoClientManager.js  0%  100%  
+	    新文件    		     374	UmbracoUtils.js  0%  100%  
+	    新文件    		    2060	UrlEncoder.js  0%  100%  
+	  新目录          12	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Application\JQuery\
+	    新文件    		   30336	jquery.autocomplete.js  0%  100%  
+	    新文件    		    5941	jquery.ba-bbq.min.js  0%  100%  
+	    新文件    		    4344	jquery.cookie.js  0%  100%  
+	    新文件    		    3178	jquery.hotkeys.js  0%  100%  
+	    新文件    		    6992	jquery.idle-timer.js  0%  100%  
+	    新文件    		    1304	jquery.metadata.min.js  0%  100%  
+	    新文件    		     165	jquery.noconflict-invoke.js  0%  100%  
+	    新文件    		    2749	jquery.unobtrusive-ajax.min.js  0%  100%  
+	    新文件    		   21496	jquery.validate.min.js  0%  100%  
+	    新文件    		    3745	jquery.validate.unobtrusive.min.js  0%  100%  
+	    新文件    		    2057	jquery-fieldselection.js  0%  100%  
+	    新文件    		     255	VerticalAlign.js  0%  100%  
+	  新目录           3	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\CodeArea\
+	    新文件    		    6126	javascript.js  0%  100%  
+	    新文件    		     305	styles.css  0%  100%  
+	    新文件    		    6997	UmbracoEditor.js  0%  100%  
+	  新目录           0	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Colorpicker\
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Colorpicker\Css\
+	    新文件    		    3367	colorpicker.css  0%  100%  
+	  新目录          26	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Colorpicker\Images\
+	    新文件    		      49	blank.gif  0%  100%  
+	    新文件    		    1897	colorpicker_background.png  0%  100%  
+	    新文件    		     532	colorpicker_hex.png  0%  100%  
+	    新文件    		     970	colorpicker_hsb_b.png  0%  100%  
+	    新文件    		    1012	colorpicker_hsb_h.png  0%  100%  
+	    新文件    		    1171	colorpicker_hsb_s.png  0%  100%  
+	    新文件    		      86	colorpicker_indic.gif  0%  100%  
+	    新文件    		   10355	colorpicker_overlay.png  0%  100%  
+	    新文件    		     970	colorpicker_rgb_b.png  0%  100%  
+	    新文件    		    1069	colorpicker_rgb_g.png  0%  100%  
+	    新文件    		    1066	colorpicker_rgb_r.png  0%  100%  
+	    新文件    		      78	colorpicker_select.gif  0%  100%  
+	    新文件    		     984	colorpicker_submit.png  0%  100%  
+	    新文件    		    1916	custom_background.png  0%  100%  
+	    新文件    		     562	custom_hex.png  0%  100%  
+	    新文件    		    1097	custom_hsb_b.png  0%  100%  
+	    新文件    		     970	custom_hsb_h.png  0%  100%  
+	    新文件    		    1168	custom_hsb_s.png  0%  100%  
+	    新文件    		      86	custom_indic.gif  0%  100%  
+	    新文件    		    1008	custom_rgb_b.png  0%  100%  
+	    新文件    		    1069	custom_rgb_g.png  0%  100%  
+	    新文件    		    1018	custom_rgb_r.png  0%  100%  
+	    新文件    		     997	custom_submit.png  0%  100%  
+	    新文件    		     506	select.png  0%  100%  
+	    新文件    		     518	select2.png  0%  100%  
+	    新文件    		     315	slider.png  0%  100%  
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Colorpicker\Js\
+	    新文件    		   17175	colorpicker.js  0%  100%  
+	  新目录           0	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\ContextMenu\
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\ContextMenu\Css\
+	    新文件    		    4026	jquery.contextMenu.css  0%  100%  
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\ContextMenu\Js\
+	    新文件    		   62773	jquery.contextMenu.js  0%  100%  
+	  新目录           0	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Datepicker\
+	  新目录          10	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Datepicker\Aqua\
+	    新文件    		      89	active-bg.gif  0%  100%  
+	    新文件    		      85	dark-bg.gif  0%  100%  
+	    新文件    		      89	hover-bg.gif  0%  100%  
+	    新文件    		      49	menuarrow.gif  0%  100%  
+	    新文件    		     110	normal-bg.gif  0%  100%  
+	    新文件    		     110	rowhover-bg.gif  0%  100%  
+	    新文件    		     116	status-bg.gif  0%  100%  
+	    新文件    		    4941	theme.css  0%  100%  
+	    新文件    		     116	title-bg.gif  0%  100%  
+	    新文件    		    1122	today-bg.gif  0%  100%  
+	  新目录           2	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Datepicker\Images\
+	    新文件    		     674	calPickerIcon.png  0%  100%  
+	    新文件    		     633	calPickerIconHover.png  0%  100%  
+	  新目录           3	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\DateTimePicker\
+	    新文件    		   20315	datetimepicker.css  0%  100%  
+	    新文件    		   13311	timepicker.js  0%  100%  
+	    新文件    		    1939	umbDateTimePicker.js  0%  100%  
+	  新目录           3	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\DateTimePicker\Images\
+	    新文件    		    1110	calSprite.png  0%  100%  
+	    新文件    		    8673	ui-icons_666666_256x240.png  0%  100%  
+	    新文件    		    8641	ui-icons_999999_256x240.png  0%  100%  
+	  新目录          10	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Dialogs\
+	    新文件    		     362	AssignDomain2.css  0%  100%  
+	    新文件    		    5351	AssignDomain2.js  0%  100%  
+	    新文件    		     212	CreateDialog.css  0%  100%  
+	    新文件    		     316	EditMacro.css  0%  100%  
+	    新文件    		    7379	EditMacro.js  0%  100%  
+	    新文件    		     362	PublishDialog.css  0%  100%  
+	    新文件    		    3481	PublishDialog.js  0%  100%  
+	    新文件    		    1171	SortDialog.css  0%  100%  
+	    新文件    		    4674	SortDialog.js  0%  100%  
+	    新文件    		    6012	UmbracoField.js  0%  100%  
+	  新目录           9	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Editors\
+	    新文件    		     486	DirectoryBrowser.css  0%  100%  
+	    新文件    		     703	EditMacro.css  0%  100%  
+	    新文件    		    3039	EditMacroScripts.js  0%  100%  
+	    新文件    		    4183	EditScript.js  0%  100%  
+	    新文件    		    3796	EditStyleSheet.js  0%  100%  
+	    新文件    		    6259	EditTemplate.js  0%  100%  
+	    新文件    		   11260	EditView.js  0%  100%  
+	    新文件    		     161	EditXslt.css  0%  100%  
+	    新文件    		    3008	EditXslt.js  0%  100%  
+	  新目录           0	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\FileUploader\
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\FileUploader\Js\
+	    新文件    		   16856	jquery.fileUploader.js  0%  100%  
+	  新目录           0	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\FolderBrowser\
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\FolderBrowser\Css\
+	    新文件    		    5366	folderbrowser.css  0%  100%  
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\FolderBrowser\Js\
+	    新文件    		   18665	folderbrowser.js  0%  100%  
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\IconPicker\
+	    新文件    		      52	iconpicker.js  0%  100%  
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Imagecropper\
+	    新文件    		     329	Jcrop.gif  0%  100%  
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Images\
+	    新文件    		   10819	progressbar.gif  0%  100%  
+	  新目录           0	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Installer\
+	  新目录           5	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Installer\Css\
+	    新文件    		   23469	all.css  0%  100%  
+	    新文件    		    1314	form.css  0%  100%  
+	    新文件    		   20078	jquery-ui-1.8.6.custom.css  0%  100%  
+	    新文件    		    7958	lt7.css  0%  100%  
+	    新文件    		     967	reset.css  0%  100%  
+	  新目录          98	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Installer\Images\
+	    新文件    		  184850	bg-bhuiness.jpg  0%   70%  100%  
+	    新文件    		   19424	bg-bhuiness-cl.gif  0%  100%  
+	    新文件    		   46684	bg-bhuiness-cr.gif  0%  100%  
+	    新文件    		  187609	bg-blog.jpg  0%   69%  100%  
+	    新文件    		   18564	bg-blog-cl.gif  0%  100%  
+	    新文件    		   50756	bg-blog-cr.gif  0%  100%  
+	    新文件    		   11078	bg-blog-repeat.jpg  0%  100%  
+	    新文件    		     387	bg-drop-b.png  0%  100%  
+	    新文件    		      84	bg-drop-c.gif  0%  100%  
+	    新文件    		     391	bg-drop-t.png  0%  100%  
+	    新文件    		     158	bg-header.png  0%  100%  
+	    新文件    		    2452	bg-img.png  0%  100%  
+	    新文件    		    3915	bg-img-ie.png  0%  100%  
+	    新文件    		     621	bg-inp.png  0%  100%  
+	    新文件    		     866	bg-inp-big.png  0%  100%  
+	    新文件    		     616	bg-inp-error.png  0%  100%  
+	    新文件    		     283	bg-lightbox-b.png  0%  100%  
+	    新文件    		     296	bg-lightbox-t.png  0%  100%  
+	    新文件    		  178356	bg-normal.jpg  0%   73%  100%  
+	    新文件    		   18097	bg-normal-cl.gif  0%  100%  
+	    新文件    		   46703	bg-normal-cr.gif  0%  100%  
+	    新文件    		    9811	bg-normal-repeat.jpg  0%  100%  
+	    新文件    		     346	bg-paging.png  0%  100%  
+	    新文件    		     366	bg-paging-h.png  0%  100%  
+	    新文件    		  178356	bg-personal.jpg  0%   73%  100%  
+	    新文件    		   18097	bg-personal-cl.gif  0%  100%  
+	    新文件    		   46703	bg-personal-cr.gif  0%  100%  
+	    新文件    		    9811	bg-personal-repeat.jpg  0%  100%  
+	    新文件    		  216794	bg-simple.jpg  0%   60%  100%  
+	    新文件    		   17705	bg-simple-cl.gif  0%  100%  
+	    新文件    		   42137	bg-simple-cr.gif  0%  100%  
+	    新文件    		   12773	bg-simple-repeat.jpg  0%  100%  
+	    新文件    		    6059	btn-accept.png  0%  100%  
+	    新文件    		    2708	btn-back.png  0%  100%  
+	    新文件    		   22650	btn-blog.png  0%  100%  
+	    新文件    		   26481	btn-buisness.png  0%  100%  
+	    新文件    		   16942	btn-buisness-repeat.png  0%  100%  
+	    新文件    		    1682	btn-close.png  0%  100%  
+	    新文件    		    3113	btn-confirm.png  0%  100%  
+	    新文件    		    3500	btn-continue.png  0%  100%  
+	    新文件    		    4277	btn-create.png  0%  100%  
+	    新文件    		    2243	btn-create-hover.png  0%  100%  
+	    新文件    		    6109	btn-get.png  0%  100%  
+	    新文件    		    2789	btn-install.png  0%  100%  
+	    新文件    		    6446	btn-install-gal.png  0%  100%  
+	    新文件    		    1484	btn-install-hover.png  0%  100%  
+	    新文件    		     952	btn-next.png  0%  100%  
+	    新文件    		    1898	btn-no.png  0%  100%  
+	    新文件    		   25962	btn-no-thanks.png  0%  100%  
+	    新文件    		   30788	btn-personal.png  0%  100%  
+	    新文件    		     958	btn-prev.png  0%  100%  
+	    新文件    		    8978	btn-preview.png  0%  100%  
+	    新文件    		    7219	btn-preview-web.png  0%  100%  
+	    新文件    		    6976	btn-set.png  0%  100%  
+	    新文件    		   28477	btn-simple.png  0%  100%  
+	    新文件    		    2380	btn-yes.png  0%  100%  
+	    新文件    		     205	bul1.png  0%  100%  
+	    新文件    		      46	bul2.gif  0%  100%  
+	    新文件    		     240	bul3.png  0%  100%  
+	    新文件    		      74	bul4.gif  0%  100%  
+	    新文件    		     467	ico-invalidaing.png  0%  100%  
+	    新文件    		     437	ico-validaing.png  0%  100%  
+	    新文件    		    3189	img01.jpg  0%  100%  
+	    新文件    		    3533	img02.jpg  0%  100%  
+	    新文件    		    6205	img03.jpg  0%  100%  
+	    新文件    		    5029	img04.jpg  0%  100%  
+	    新文件    		    6113	img05.jpg  0%  100%  
+	    新文件    		    4408	img06.jpg  0%  100%  
+	    新文件    		    5924	img07.jpg  0%  100%  
+	    新文件    		    4535	img08.jpg  0%  100%  
+	    新文件    		   16018	img09.jpg  0%  100%  
+	    新文件    		    4173	img10.jpg  0%  100%  
+	    新文件    		    6618	img11.jpg  0%  100%  
+	    新文件    		    2113	loader.gif  0%  100%  
+	    新文件    		    1445	logo.gif  0%  100%  
+	    新文件    		      43	none.gif  0%  100%  
+	    新文件    		    1026	pbar.gif  0%  100%  
+	    新文件    		  304064	pbar-ani.gif  0%   43%   86%  100%  
+	    新文件    		     491	select-button.png  0%  100%  
+	    新文件    		     199	select-center.png  0%  100%  
+	    新文件    		     401	select-left.png  0%  100%  
+	    新文件    		     816	select-left-2.png  0%  100%  
+	    新文件    		     110	sep1.png  0%  100%  
+	    新文件    		     260	ui-bg_diagonals-thick_18_b81900_40x40.png  0%  100%  
+	    新文件    		     251	ui-bg_diagonals-thick_20_666666_40x40.png  0%  100%  
+	    新文件    		     178	ui-bg_flat_10_000000_40x100.png  0%  100%  
+	    新文件    		     104	ui-bg_glass_100_f6f6f6_1x400.png  0%  100%  
+	    新文件    		     125	ui-bg_glass_100_fdf5ce_1x400.png  0%  100%  
+	    新文件    		     105	ui-bg_glass_65_ffffff_1x400.png  0%  100%  
+	    新文件    		    3762	ui-bg_gloss-wave_35_f6a828_500x100.png  0%  100%  
+	    新文件    		      90	ui-bg_highlight-soft_100_eeeeee_1x100.png  0%  100%  
+	    新文件    		     129	ui-bg_highlight-soft_75_ffe45c_1x100.png  0%  100%  
+	    新文件    		    4369	ui-icons_222222_256x240.png  0%  100%  
+	    新文件    		    4369	ui-icons_228ef1_256x240.png  0%  100%  
+	    新文件    		    4369	ui-icons_ef8c08_256x240.png  0%  100%  
+	    新文件    		    4369	ui-icons_ffd27a_256x240.png  0%  100%  
+	    新文件    		    4369	ui-icons_ffffff_256x240.png  0%  100%  
+	    新文件    		    1207	zoom-in.png  0%  100%  
+	  新目录           4	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Installer\Js\
+	    新文件    		    7058	ie-png.js  0%  100%  
+	    新文件    		   62130	jquery.main.js  0%  100%  
+	    新文件    		   19146	jquery.ui.selectmenu.js  0%  100%  
+	    新文件    		    9543	PackageInstaller.js  0%  100%  
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Jeditable\
+	    新文件    		   24034	jquery.jeditable.js  0%  100%  
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\MacroContainer\
+	    新文件    		     666	macroContainer.css  0%  100%  
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\MaskedInput\
+	    新文件    		    4028	jquery.maskedinput-1.3.min.js  0%  100%  
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Menuicon\
+	    新文件    		     571	style.css  0%  100%  
+	  新目录           3	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Menuicon\Images\
+	    新文件    		     273	buttonbg.gif  0%  100%  
+	    新文件    		     273	buttonbgdown.gif  0%  100%  
+	    新文件    		     851	split.gif  0%  100%  
+	  新目录           5	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Modal\
+	    新文件    		   24893	jquery.simplemodal.1.4.1.custom.js  0%  100%  
+	    新文件    		   20746	modal.js  0%  100%  
+	    新文件    		     475	modalBackground.gif  0%  100%  
+	    新文件    		     151	modalGradiant.gif  0%  100%  
+	    新文件    		    1417	style.css  0%  100%  
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Mousewheel\
+	    新文件    		    1638	jquery.mousewheel.js  0%  100%  
+	  新目录           2	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Panel\
+	    新文件    		     240	javascript.js  0%  100%  
+	    新文件    		    2608	style.css  0%  100%  
+	  新目录           6	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Panel\Images\
+	    新文件    		      98	panel_bg.gif  0%  100%  
+	    新文件    		      43	panel_boxfooter_bg.gif  0%  100%  
+	    新文件    		     162	panel_boxfooter_statusBar_bg.gif  0%  100%  
+	    新文件    		     164	panel_boxfooter_statusBar_h2_bg.gif  0%  100%  
+	    新文件    		     194	panel_boxhead_bg.gif  0%  100%  
+	    新文件    		     193	panel_boxhead_h2_bg.gif  0%  100%  
+	  新目录           2	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Preview\
+	    新文件    		    3508	previewModeBadge.png  0%  100%  
+	    新文件    		     169	umbracoPreview.css  0%  100%  
+	  新目录           2	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\ProgressBar\
+	    新文件    		     795	javascript.js  0%  100%  
+	    新文件    		     524	style.css  0%  100%  
+	  新目录           3	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\ProgressBar\Images\
+	    新文件    		     314	container_left.gif  0%  100%  
+	    新文件    		     102	container_right.gif  0%  100%  
+	    新文件    		     113	indicator.gif  0%  100%  
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Propertypane\
+	    新文件    		    2000	style.css  0%  100%  
+	  新目录           2	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Propertypane\Images\
+	    新文件    		    9038	propertyBackground.gif  0%  100%  
+	    新文件    		     554	proppane_bg.png  0%  100%  
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\PunyCode\
+	    新文件    		    2802	punycode.min.js  0%  100%  
+	  新目录           2	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Scrollingmenu\
+	    新文件    		    2851	javascript.js  0%  100%  
+	    新文件    		     255	style.css  0%  100%  
+	  新目录           3	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Scrollingmenu\Images\
+	    新文件    		     834	arrawBack.gif  0%  100%  
+	    新文件    		     834	arrowForward.gif  0%  100%  
+	    新文件    		     183	background.gif  0%  100%  
+	  新目录           2	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Scrollingmenu\Images\Button\
+	    新文件    		     273	buttonbg.gif  0%  100%  
+	    新文件    		     273	buttonbgdown.gif  0%  100%  
+	  新目录           0	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\SimpleEditor\
+	  新目录           3	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\SimpleEditor\Images\
+	    新文件    		      78	bold.gif  0%  100%  
+	    新文件    		      73	italic.gif  0%  100%  
+	    新文件    		     108	link.gif  0%  100%  
+	  新目录           3	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Splitbutton\
+	    新文件    		    2245	InsertMacroSplitButton.js  0%  100%  
+	    新文件    		   18462	jquery.splitbutton.js  0%  100%  
+	    新文件    		    2773	splitbutton.css  0%  100%  
+	  新目录           2	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Splitbutton\Images\
+	    新文件    		     130	splitbutton_downarrow.png  0%  100%  
+	    新文件    		     149	splitbutton_hover.png  0%  100%  
+	  新目录           4	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tablesorting\
+	    新文件    		   16523	jquery.tablesorter.min.js  0%  100%  
+	    新文件    		   18249	tableDragAndDrop.js  0%  100%  
+	    新文件    		   23499	tableFilter.js  0%  100%  
+	    新文件    		   12838	tableFilterUtill.js  0%  100%  
+	  新目录           3	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tablesorting\img\
+	    新文件    		     830	asc.gif  0%  100%  
+	    新文件    		      73	bg.gif  0%  100%  
+	    新文件    		     833	desc.gif  0%  100%  
+	  新目录           3	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tabview\
+	    新文件    		    3721	javascript.js  0%  100%  
+	    新文件    		    1589	oldstyle.css  0%  100%  
+	    新文件    		    2633	style.css  0%  100%  
+	  新目录           7	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tabview\Images\
+	    新文件    		     169	background.gif  0%  100%  
+	    新文件    		      73	bg.gif  0%  100%  
+	    新文件    		      43	footer_bg.gif  0%  100%  
+	    新文件    		     162	footer_statusBar_bg.gif  0%  100%  
+	    新文件    		     164	footer_statusBar_h2_bg.gif  0%  100%  
+	    新文件    		    1343	left_both.gif  0%  100%  
+	    新文件    		    3913	right_both.gif  0%  100%  
+	  新目录           0	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tags\
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tags\Css\
+	    新文件    		    1117	jquery.tagsinput.css  0%  100%  
+	  新目录           2	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tags\Js\
+	    新文件    		   11891	jquery.tagsinput.js  0%  100%  
+	    新文件    		    6400	jquery.tagsinput.min.js  0%  100%  
+	  新目录           4	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\
+	    新文件    		   26930	license.txt  0%  100%  
+	    新文件    		  232483	tiny_mce.js  0%   56%  100%  
+	    新文件    		    4912	tiny_mce_popup.js  0%  100%  
+	    新文件    		  524361	tiny_mce_src.js  0%   49%   99%  100%  
+	  新目录          16	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Langs\
+	    新文件    		    7049	da.js  0%  100%  
+	    新文件    		    7251	de.js  0%  100%  
+	    新文件    		    6515	en.js  0%  100%  
+	    新文件    		    6518	en_us.js  0%  100%  
+	    新文件    		    7711	fi.js  0%  100%  
+	    新文件    		    7765	fr.js  0%  100%  
+	    新文件    		   15279	he.js  0%  100%  
+	    新文件    		    7010	it.js  0%  100%  
+	    新文件    		   11301	ja.js  0%  100%  
+	    新文件    		    6635	nl.js  0%  100%  
+	    新文件    		    6958	no.js  0%  100%  
+	    新文件    		    7897	pl.js  0%  100%  
+	    新文件    		    7053	pt.js  0%  100%  
+	    新文件    		   19794	ru.js  0%  100%  
+	    新文件    		    6966	sv.js  0%  100%  
+	    新文件    		    8432	zh.js  0%  100%  
+	  新目录           0	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\
+	  新目录           3	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advhr\
+	    新文件    		     847	editor_plugin.js  0%  100%  
+	    新文件    		    1442	editor_plugin_src.js  0%  100%  
+	    新文件    		    2422	rule.htm  0%  100%  
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advhr\Css\
+	    新文件    		     240	advhr.css  0%  100%  
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advhr\Js\
+	    新文件    		    1322	rule.js  0%  100%  
+	  新目录          16	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advhr\Langs\
+	    新文件    		     127	da_dlg.js  0%  100%  
+	    新文件    		     129	de_dlg.js  0%  100%  
+	    新文件    		     117	en_dlg.js  0%  100%  
+	    新文件    		     120	en_us_dlg.js  0%  100%  
+	    新文件    		     128	fi_dlg.js  0%  100%  
+	    新文件    		     129	fr_dlg.js  0%  100%  
+	    新文件    		     225	he_dlg.js  0%  100%  
+	    新文件    		     138	it_dlg.js  0%  100%  
+	    新文件    		     146	ja_dlg.js  0%  100%  
+	    新文件    		     126	nl_dlg.js  0%  100%  
+	    新文件    		     127	no_dlg.js  0%  100%  
+	    新文件    		     150	pl_dlg.js  0%  100%  
+	    新文件    		     120	pt_dlg.js  0%  100%  
+	    新文件    		     342	ru_dlg.js  0%  100%  
+	    新文件    		     125	sv_dlg.js  0%  100%  
+	    新文件    		     142	zh_dlg.js  0%  100%  
+	  新目录           3	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advimage\
+	    新文件    		     791	editor_plugin.js  0%  100%  
+	    新文件    		    1391	editor_plugin_src.js  0%  100%  
+	    新文件    		   12086	image.htm  0%  100%  
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advimage\Css\
+	    新文件    		     672	advimage.css  0%  100%  
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advimage\Img\
+	    新文件    		    1624	sample.gif  0%  100%  
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advimage\Js\
+	    新文件    		   12909	image.js  0%  100%  
+	  新目录          16	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advimage\Langs\
+	    新文件    		    1352	da_dlg.js  0%  100%  
+	    新文件    		    1363	de_dlg.js  0%  100%  
+	    新文件    		    1270	en_dlg.js  0%  100%  
+	    新文件    		    1273	en_us_dlg.js  0%  100%  
+	    新文件    		    1387	fi_dlg.js  0%  100%  
+	    新文件    		    1508	fr_dlg.js  0%  100%  
+	    新文件    		    2771	he_dlg.js  0%  100%  
+	    新文件    		    1467	it_dlg.js  0%  100%  
+	    新文件    		    2319	ja_dlg.js  0%  100%  
+	    新文件    		    1267	nl_dlg.js  0%  100%  
+	    新文件    		    1312	no_dlg.js  0%  100%  
+	    新文件    		    1467	pl_dlg.js  0%  100%  
+	    新文件    		    1374	pt_dlg.js  0%  100%  
+	    新文件    		    4924	ru_dlg.js  0%  100%  
+	    新文件    		    1266	sv_dlg.js  0%  100%  
+	    新文件    		    1761	zh_dlg.js  0%  100%  
+	  新目录           3	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advlink\
+	    新文件    		     973	editor_plugin.js  0%  100%  
+	    新文件    		    1633	editor_plugin_src.js  0%  100%  
+	    新文件    		   16123	link.htm  0%  100%  
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advlink\Css\
+	    新文件    		     480	advlink.css  0%  100%  
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advlink\Js\
+	    新文件    		   17341	advlink.js  0%  100%  
+	  新目录          16	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advlink\Langs\
+	    新文件    		    1944	da_dlg.js  0%  100%  
+	    新文件    		    1955	de_dlg.js  0%  100%  
+	    新文件    		    1667	en_dlg.js  0%  100%  
+	    新文件    		    1670	en_us_dlg.js  0%  100%  
+	    新文件    		    1985	fi_dlg.js  0%  100%  
+	    新文件    		    2120	fr_dlg.js  0%  100%  
+	    新文件    		    4332	he_dlg.js  0%  100%  
+	    新文件    		    1864	it_dlg.js  0%  100%  
+	    新文件    		    3274	ja_dlg.js  0%  100%  
+	    新文件    		    1710	nl_dlg.js  0%  100%  
+	    新文件    		    1871	no_dlg.js  0%  100%  
+	    新文件    		    2012	pl_dlg.js  0%  100%  
+	    新文件    		    1962	pt_dlg.js  0%  100%  
+	    新文件    		    5662	ru_dlg.js  0%  100%  
+	    新文件    		    1846	sv_dlg.js  0%  100%  
+	    新文件    		    2326	zh_dlg.js  0%  100%  
+	  新目录           2	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Advlist\
+	    新文件    		    2324	editor_plugin.js  0%  100%  
+	    新文件    		    4726	editor_plugin_src.js  0%  100%  
+	  新目录           2	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Autolink\
+	    新文件    		    2355	editor_plugin.js  0%  100%  
+	    新文件    		    5492	editor_plugin_src.js  0%  100%  
+	  新目录           2	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Autoresize\
+	    新文件    		    1506	editor_plugin.js  0%  100%  
+	    新文件    		    4158	editor_plugin_src.js  0%  100%  
+	  新目录           2	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Autosave\
+	    新文件    		    3584	editor_plugin.js  0%  100%  
+	    新文件    		   13766	editor_plugin_src.js  0%  100%  
+	  新目录           2	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Autosave\Langs\
+	    新文件    		     256	en.js  0%  100%  
+	    新文件    		     259	en_us.js  0%  100%  
+	  新目录           2	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Bbcode\
+	    新文件    		    3231	editor_plugin.js  0%  100%  
+	    新文件    		    4361	editor_plugin_src.js  0%  100%  
+	  新目录           2	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Contextmenu\
+	    新文件    		    2540	editor_plugin.js  0%  100%  
+	    新文件    		    5227	editor_plugin_src.js  0%  100%  
+	  新目录           2	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Directionality\
+	    新文件    		    1259	editor_plugin.js  0%  100%  
+	    新文件    		    2189	editor_plugin_src.js  0%  100%  
+	  新目录           3	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Emotions\
+	    新文件    		     676	editor_plugin.js  0%  100%  
+	    新文件    		    1220	editor_plugin_src.js  0%  100%  
+	    新文件    		    5972	emotions.htm  0%  100%  
+	  新目录          16	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Emotions\Img\
+	    新文件    		     354	smiley-cool.gif  0%  100%  
+	    新文件    		     329	smiley-cry.gif  0%  100%  
+	    新文件    		     331	smiley-embarassed.gif  0%  100%  
+	    新文件    		     342	smiley-foot-in-mouth.gif  0%  100%  
+	    新文件    		     340	smiley-frown.gif  0%  100%  
+	    新文件    		     336	smiley-innocent.gif  0%  100%  
+	    新文件    		     338	smiley-kiss.gif  0%  100%  
+	    新文件    		     343	smiley-laughing.gif  0%  100%  
+	    新文件    		     321	smiley-money-mouth.gif  0%  100%  
+	    新文件    		     323	smiley-sealed.gif  0%  100%  
+	    新文件    		     344	smiley-smile.gif  0%  100%  
+	    新文件    		     338	smiley-surprised.gif  0%  100%  
+	    新文件    		     328	smiley-tongue-out.gif  0%  100%  
+	    新文件    		     337	smiley-undecided.gif  0%  100%  
+	    新文件    		     350	smiley-wink.gif  0%  100%  
+	    新文件    		     336	smiley-yell.gif  0%  100%  
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Emotions\Js\
+	    新文件    		    1120	emotions.js  0%  100%  
+	  新目录          16	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Emotions\Langs\
+	    新文件    		     463	da_dlg.js  0%  100%  
+	    新文件    		     478	de_dlg.js  0%  100%  
+	    新文件    		     421	en_dlg.js  0%  100%  
+	    新文件    		     424	en_us_dlg.js  0%  100%  
+	    新文件    		     532	fi_dlg.js  0%  100%  
+	    新文件    		     513	fr_dlg.js  0%  100%  
+	    新文件    		     999	he_dlg.js  0%  100%  
+	    新文件    		     472	it_dlg.js  0%  100%  
+	    新文件    		     738	ja_dlg.js  0%  100%  
+	    新文件    		     459	nl_dlg.js  0%  100%  
+	    新文件    		     446	no_dlg.js  0%  100%  
+	    新文件    		     529	pl_dlg.js  0%  100%  
+	    新文件    		     468	pt_dlg.js  0%  100%  
+	    新文件    		    1380	ru_dlg.js  0%  100%  
+	    新文件    		     496	sv_dlg.js  0%  100%  
+	    新文件    		     456	zh_dlg.js  0%  100%  
+	  新目录           3	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Example\
+	    新文件    		     908	dialog.htm  0%  100%  
+	    新文件    		     860	editor_plugin.js  0%  100%  
+	    新文件    		    2988	editor_plugin_src.js  0%  100%  
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Example\Img\
+	    新文件    		      87	example.gif  0%  100%  
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Example\Js\
+	    新文件    		     609	dialog.js  0%  100%  
+	  新目录           2	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Example\Langs\
+	    新文件    		      79	en.js  0%  100%  
+	    新文件    		      82	en_dlg.js  0%  100%  
+	  新目录           2	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\example_dependency\
+	    新文件    		     419	editor_plugin.js  0%  100%  
+	    新文件    		    1885	editor_plugin_src.js  0%  100%  
+	  新目录           3	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Fullpage\
+	    新文件    		    6322	editor_plugin.js  0%  100%  
+	    新文件    		   11568	editor_plugin_src.js  0%  100%  
+	    新文件    		   10754	fullpage.htm  0%  100%  
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Fullpage\Css\
+	    新文件    		    2188	fullpage.css  0%  100%  
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Fullpage\Js\
+	    新文件    		    8164	fullpage.js  0%  100%  
+	  新目录          16	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Fullpage\Langs\
+	    新文件    		    2347	da_dlg.js  0%  100%  
+	    新文件    		    2469	de_dlg.js  0%  100%  
+	    新文件    		    2297	en_dlg.js  0%  100%  
+	    新文件    		    2300	en_us_dlg.js  0%  100%  
+	    新文件    		    2541	fi_dlg.js  0%  100%  
+	    新文件    		    2864	fr_dlg.js  0%  100%  
+	    新文件    		    4260	he_dlg.js  0%  100%  
+	    新文件    		    2520	it_dlg.js  0%  100%  
+	    新文件    		    3802	ja_dlg.js  0%  100%  
+	    新文件    		    2365	nl_dlg.js  0%  100%  
+	    新文件    		    2359	no_dlg.js  0%  100%  
+	    新文件    		    2712	pl_dlg.js  0%  100%  
+	    新文件    		    2387	pt_dlg.js  0%  100%  
+	    新文件    		    6193	ru_dlg.js  0%  100%  
+	    新文件    		    2499	sv_dlg.js  0%  100%  
+	    新文件    		    2863	zh_dlg.js  0%  100%  
+	  新目录           3	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Fullscreen\
+	    新文件    		    4422	editor_plugin.js  0%  100%  
+	    新文件    		    8222	editor_plugin_src.js  0%  100%  
+	    新文件    		    3655	fullscreen.htm  0%  100%  
+	  新目录           2	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Iespell\
+	    新文件    		     909	editor_plugin.js  0%  100%  
+	    新文件    		    1484	editor_plugin_src.js  0%  100%  
+	  新目录           3	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Inlinepopups\
+	    新文件    		   11928	editor_plugin.js  0%  100%  
+	    新文件    		   19657	editor_plugin_src.js  0%  100%  
+	    新文件    		   12878	template.htm  0%  100%  
+	  新目录           0	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Inlinepopups\Skins\
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Inlinepopups\Skins\Clearlooks2\
+	    新文件    		    6715	window.css  0%  100%  
+	  新目录           7	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Inlinepopups\Skins\Clearlooks2\Img\
+	    新文件    		     810	alert.gif  0%  100%  
+	    新文件    		     272	button.gif  0%  100%  
+	    新文件    		    1195	buttons.gif  0%  100%  
+	    新文件    		     907	confirm.gif  0%  100%  
+	    新文件    		     909	corners.gif  0%  100%  
+	    新文件    		     769	horizontal.gif  0%  100%  
+	    新文件    		      84	vertical.gif  0%  100%  
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Inlinepopups\Skins\Umbraco\
+	    新文件    		    4816	window.css  0%  100%  
+	  新目录           8	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Inlinepopups\Skins\Umbraco\Img\
+	    新文件    		     818	alert.gif  0%  100%  
+	    新文件    		     280	button.gif  0%  100%  
+	    新文件    		    1195	buttons.gif  0%  100%  
+	    新文件    		    3728	close.png  0%  100%  
+	    新文件    		     915	confirm.gif  0%  100%  
+	    新文件    		     569	corners.gif  0%  100%  
+	    新文件    		     436	horizontal.gif  0%  100%  
+	    新文件    		     140	vertical.gif  0%  100%  
+	  新目录           2	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Insertdatetime\
+	    新文件    		    1931	editor_plugin.js  0%  100%  
+	    新文件    		    2860	editor_plugin_src.js  0%  100%  
+	  新目录           2	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Layer\
+	    新文件    		    4052	editor_plugin.js  0%  100%  
+	    新文件    		    6747	editor_plugin_src.js  0%  100%  
+	  新目录           2	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Legacyoutput\
+	    新文件    		    2086	editor_plugin.js  0%  100%  
+	    新文件    		    5077	editor_plugin_src.js  0%  100%  
+	  新目录           2	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Lists\
+	    新文件    		   14380	editor_plugin.js  0%  100%  
+	    新文件    		   32531	editor_plugin_src.js  0%  100%  
+	  新目录           4	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Media\
+	    新文件    		   12655	editor_plugin.js  0%  100%  
+	    新文件    		   26419	editor_plugin_src.js  0%  100%  
+	    新文件    		   38852	media.htm  0%  100%  
+	    新文件    		   19980	moxieplayer.swf  0%  100%  
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Media\Css\
+	    新文件    		    1357	media.css  0%  100%  
+	  新目录           2	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Media\Js\
+	    新文件    		    1938	embed.js  0%  100%  
+	    新文件    		   16473	media.js  0%  100%  
+	  新目录          18	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Media\Langs\
+	    新文件    		    3077	da_dlg.js  0%  100%  
+	    新文件    		    3164	de_dlg.js  0%  100%  
+	    新文件    		    2815	en_dlg.js  0%  100%  
+	    新文件    		    2818	en_us_dlg.js  0%  100%  
+	    新文件    		    3018	es_dlg.js  0%  100%  
+	    新文件    		    3314	fi_dlg.js  0%  100%  
+	    新文件    		    3302	fr_dlg.js  0%  100%  
+	    新文件    		    5399	he_dlg.js  0%  100%  
+	    新文件    		    3062	it_dlg.js  0%  100%  
+	    新文件    		    5047	ja_dlg.js  0%  100%  
+	    新文件    		    2734	ko_dlg.js  0%  100%  
+	    新文件    		    2949	nl_dlg.js  0%  100%  
+	    新文件    		    3047	no_dlg.js  0%  100%  
+	    新文件    		    3259	pl_dlg.js  0%  100%  
+	    新文件    		    3259	pt_dlg.js  0%  100%  
+	    新文件    		    9433	ru_dlg.js  0%  100%  
+	    新文件    		    2962	sv_dlg.js  0%  100%  
+	    新文件    		    3445	zh_dlg.js  0%  100%  
+	  新目录           2	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Nonbreaking\
+	    新文件    		     944	editor_plugin.js  0%  100%  
+	    新文件    		    1521	editor_plugin_src.js  0%  100%  
+	  新目录           2	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Noneditable\
+	    新文件    		    5431	editor_plugin.js  0%  100%  
+	    新文件    		   17154	editor_plugin_src.js  0%  100%  
+	  新目录           2	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Pagebreak\
+	    新文件    		    1402	editor_plugin.js  0%  100%  
+	    新文件    		    2161	editor_plugin_src.js  0%  100%  
+	  新目录           4	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Paste\
+	    新文件    		   13713	editor_plugin.js  0%  100%  
+	    新文件    		   31674	editor_plugin_src.js  0%  100%  
+	    新文件    		    1209	pastetext.htm  0%  100%  
+	    新文件    		     783	pasteword.htm  0%  100%  
+	  新目录           2	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Paste\Js\
+	    新文件    		     884	pastetext.js  0%  100%  
+	    新文件    		    1647	pasteword.js  0%  100%  
+	  新目录          16	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Paste\Langs\
+	    新文件    		     227	da_dlg.js  0%  100%  
+	    新文件    		     262	de_dlg.js  0%  100%  
+	    新文件    		     226	en_dlg.js  0%  100%  
+	    新文件    		     229	en_us_dlg.js  0%  100%  
+	    新文件    		     245	fi_dlg.js  0%  100%  
+	    新文件    		     276	fr_dlg.js  0%  100%  
+	    新文件    		     610	he_dlg.js  0%  100%  
+	    新文件    		     252	it_dlg.js  0%  100%  
+	    新文件    		     517	ja_dlg.js  0%  100%  
+	    新文件    		     209	nl_dlg.js  0%  100%  
+	    新文件    		     256	no_dlg.js  0%  100%  
+	    新文件    		     263	pl_dlg.js  0%  100%  
+	    新文件    		     190	pt_dlg.js  0%  100%  
+	    新文件    		     633	ru_dlg.js  0%  100%  
+	    新文件    		     284	sv_dlg.js  0%  100%  
+	    新文件    		     258	zh_dlg.js  0%  100%  
+	  新目录           4	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Preview\
+	    新文件    		    1051	editor_plugin.js  0%  100%  
+	    新文件    		    1641	editor_plugin_src.js  0%  100%  
+	    新文件    		     731	example.html  0%  100%  
+	    新文件    		     630	preview.html  0%  100%  
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Preview\Jscripts\
+	    新文件    		    1938	embed.js  0%  100%  
+	  新目录           2	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Print\
+	    新文件    		     492	editor_plugin.js  0%  100%  
+	    新文件    		     881	editor_plugin_src.js  0%  100%  
+	  新目录           2	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Save\
+	    新文件    		    1569	editor_plugin.js  0%  100%  
+	    新文件    		    2529	editor_plugin_src.js  0%  100%  
+	  新目录           3	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Searchreplace\
+	    新文件    		    1046	editor_plugin.js  0%  100%  
+	    新文件    		    1795	editor_plugin_src.js  0%  100%  
+	    新文件    		    5334	searchreplace.htm  0%  100%  
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Searchreplace\Css\
+	    新文件    		     176	searchreplace.css  0%  100%  
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Searchreplace\Js\
+	    新文件    		    3878	searchreplace.js  0%  100%  
+	  新目录          16	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Searchreplace\Langs\
+	    新文件    		     461	da_dlg.js  0%  100%  
+	    新文件    		     522	de_dlg.js  0%  100%  
+	    新文件    		     445	en_dlg.js  0%  100%  
+	    新文件    		     448	en_us_dlg.js  0%  100%  
+	    新文件    		     468	fi_dlg.js  0%  100%  
+	    新文件    		     584	fr_dlg.js  0%  100%  
+	    新文件    		    1056	he_dlg.js  0%  100%  
+	    新文件    		     473	it_dlg.js  0%  100%  
+	    新文件    		     755	ja_dlg.js  0%  100%  
+	    新文件    		     488	nl_dlg.js  0%  100%  
+	    新文件    		     475	no_dlg.js  0%  100%  
+	    新文件    		     602	pl_dlg.js  0%  100%  
+	    新文件    		     489	pt_dlg.js  0%  100%  
+	    新文件    		    1262	ru_dlg.js  0%  100%  
+	    新文件    		     535	sv_dlg.js  0%  100%  
+	    新文件    		     633	zh_dlg.js  0%  100%  
+	  新目录           2	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Spellchecker\
+	    新文件    		    7217	editor_plugin.js  0%  100%  
+	    新文件    		   12791	editor_plugin_src.js  0%  100%  
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Spellchecker\Css\
+	    新文件    		      98	content.css  0%  100%  
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Spellchecker\Img\
+	    新文件    		      46	wline.gif  0%  100%  
+	  新目录           4	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Style\
+	    新文件    		    1117	editor_plugin.js  0%  100%  
+	    新文件    		    1927	editor_plugin_src.js  0%  100%  
+	    新文件    		   38494	props.htm  0%  100%  
+	    新文件    		    1030	readme.txt  0%  100%  
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Style\Css\
+	    新文件    		     906	props.css  0%  100%  
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Style\Js\
+	    新文件    		   32355	props.js  0%  100%  
+	  新目录          16	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Style\Langs\
+	    新文件    		    1689	da_dlg.js  0%  100%  
+	    新文件    		    1824	de_dlg.js  0%  100%  
+	    新文件    		    1627	en_dlg.js  0%  100%  
+	    新文件    		    1630	en_us_dlg.js  0%  100%  
+	    新文件    		    1762	fi_dlg.js  0%  100%  
+	    新文件    		    1723	fr_dlg.js  0%  100%  
+	    新文件    		    3246	he_dlg.js  0%  100%  
+	    新文件    		    1718	it_dlg.js  0%  100%  
+	    新文件    		    2436	ja_dlg.js  0%  100%  
+	    新文件    		    1652	nl_dlg.js  0%  100%  
+	    新文件    		    1648	no_dlg.js  0%  100%  
+	    新文件    		    1916	pl_dlg.js  0%  100%  
+	    新文件    		    1684	pt_dlg.js  0%  100%  
+	    新文件    		    4509	ru_dlg.js  0%  100%  
+	    新文件    		    1700	sv_dlg.js  0%  100%  
+	    新文件    		    2005	zh_dlg.js  0%  100%  
+	  新目录           2	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Tabfocus\
+	    新文件    		    1666	editor_plugin.js  0%  100%  
+	    新文件    		    3057	editor_plugin_src.js  0%  100%  
+	  新目录           6	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Table\
+	    新文件    		    7292	cell.htm  0%  100%  
+	    新文件    		   17667	editor_plugin.js  0%  100%  
+	    新文件    		   40915	editor_plugin_src.js  0%  100%  
+	    新文件    		    1508	merge_cells.htm  0%  100%  
+	    新文件    		    6263	row.htm  0%  100%  
+	    新文件    		    9035	table.htm  0%  100%  
+	  新目录           3	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Table\Css\
+	    新文件    		     205	cell.css  0%  100%  
+	    新文件    		     306	row.css  0%  100%  
+	    新文件    		     170	table.css  0%  100%  
+	  新目录           4	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Table\Js\
+	    新文件    		    9458	cell.js  0%  100%  
+	    新文件    		     566	merge_cells.js  0%  100%  
+	    新文件    		    7775	row.js  0%  100%  
+	    新文件    		   15534	table.js  0%  100%  
+	  新目录          16	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Table\Langs\
+	    新文件    		    2262	da_dlg.js  0%  100%  
+	    新文件    		    2462	de_dlg.js  0%  100%  
+	    新文件    		    2092	en_dlg.js  0%  100%  
+	    新文件    		    2095	en_us_dlg.js  0%  100%  
+	    新文件    		    2516	fi_dlg.js  0%  100%  
+	    新文件    		    2694	fr_dlg.js  0%  100%  
+	    新文件    		    4748	he_dlg.js  0%  100%  
+	    新文件    		    2301	it_dlg.js  0%  100%  
+	    新文件    		    3631	ja_dlg.js  0%  100%  
+	    新文件    		    2199	nl_dlg.js  0%  100%  
+	    新文件    		    2247	no_dlg.js  0%  100%  
+	    新文件    		    2653	pl_dlg.js  0%  100%  
+	    新文件    		    2285	pt_dlg.js  0%  100%  
+	    新文件    		    6724	ru_dlg.js  0%  100%  
+	    新文件    		    2189	sv_dlg.js  0%  100%  
+	    新文件    		    2859	zh_dlg.js  0%  100%  
+	  新目录           4	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Template\
+	    新文件    		     332	blank.htm  0%  100%  
+	    新文件    		    3302	editor_plugin.js  0%  100%  
+	    新文件    		    4986	editor_plugin_src.js  0%  100%  
+	    新文件    		    1441	template.htm  0%  100%  
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Template\Css\
+	    新文件    		     275	template.css  0%  100%  
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Template\Js\
+	    新文件    		    2777	template.js  0%  100%  
+	  新目录          16	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Template\Langs\
+	    新文件    		     670	da_dlg.js  0%  100%  
+	    新文件    		     662	de_dlg.js  0%  100%  
+	    新文件    		     627	en_dlg.js  0%  100%  
+	    新文件    		     630	en_us_dlg.js  0%  100%  
+	    新文件    		     756	fi_dlg.js  0%  100%  
+	    新文件    		     731	fr_dlg.js  0%  100%  
+	    新文件    		    1065	he_dlg.js  0%  100%  
+	    新文件    		     693	it_dlg.js  0%  100%  
+	    新文件    		    1041	ja_dlg.js  0%  100%  
+	    新文件    		     670	nl_dlg.js  0%  100%  
+	    新文件    		     651	no_dlg.js  0%  100%  
+	    新文件    		     688	pl_dlg.js  0%  100%  
+	    新文件    		     694	pt_dlg.js  0%  100%  
+	    新文件    		    2076	ru_dlg.js  0%  100%  
+	    新文件    		     670	sv_dlg.js  0%  100%  
+	    新文件    		     989	zh_dlg.js  0%  100%  
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracocontextmenu\
+	    新文件    		    2561	editor_plugin_src.js  0%  100%  
+	  新目录           2	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracocss\
+	    新文件    		     991	dialog.htm  0%  100%  
+	    新文件    		    8362	editor_plugin_src.js  0%  100%  
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracocss\Img\
+	    新文件    		      87	example.gif  0%  100%  
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracocss\Js\
+	    新文件    		     609	dialog.js  0%  100%  
+	  新目录          14	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracocss\Langs\
+	    新文件    		      79	en.js  0%  100%  
+	    新文件    		      82	en_dlg.js  0%  100%  
+	    新文件    		      82	en_us.js  0%  100%  
+	    新文件    		      85	en_us_dlg.js  0%  100%  
+	    新文件    		      67	it.js  0%  100%  
+	    新文件    		      71	it_dlg.js  0%  100%  
+	    新文件    		      92	ja.js  0%  100%  
+	    新文件    		      84	ja_dlg.js  0%  100%  
+	    新文件    		      96	ru.js  0%  100%  
+	    新文件    		     105	ru_dlg.js  0%  100%  
+	    新文件    		      76	sv.js  0%  100%  
+	    新文件    		      93	sv_dlg.js  0%  100%  
+	    新文件    		      67	zh.js  0%  100%  
+	    新文件    		      72	zh_dlg.js  0%  100%  
+	  新目录           3	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracoembed\
+	    新文件    		    3816	dialog.htm  0%  100%  
+	    新文件    		     860	editor_plugin.js  0%  100%  
+	    新文件    		    2984	editor_plugin_src.js  0%  100%  
+	  新目录           2	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracoembed\Img\
+	    新文件    		    1928	ajax-loader.gif  0%  100%  
+	    新文件    		     260	embed.gif  0%  100%  
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracoembed\Js\
+	    新文件    		    3260	dialog.js  0%  100%  
+	  新目录          18	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracoembed\Langs\
+	    新文件    		      85	da.js  0%  100%  
+	    新文件    		     251	da_dlg.js  0%  100%  
+	    新文件    		     272	de.js  0%  100%  
+	    新文件    		     272	de_dlg.js  0%  100%  
+	    新文件    		      78	en.js  0%  100%  
+	    新文件    		     232	en_dlg.js  0%  100%  
+	    新文件    		      81	en_us.js  0%  100%  
+	    新文件    		     235	en_us_dlg.js  0%  100%  
+	    新文件    		     236	it.js  0%  100%  
+	    新文件    		     244	it_dlg.js  0%  100%  
+	    新文件    		     267	ja.js  0%  100%  
+	    新文件    		     268	ja_dlg.js  0%  100%  
+	    新文件    		     329	ru.js  0%  100%  
+	    新文件    		     329	ru_dlg.js  0%  100%  
+	    新文件    		     260	sv.js  0%  100%  
+	    新文件    		     260	sv_dlg.js  0%  100%  
+	    新文件    		     235	zh.js  0%  100%  
+	    新文件    		     235	zh_dlg.js  0%  100%  
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracoimg\
+	    新文件    		    1739	editor_plugin_src.js  0%  100%  
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracoimg\Js\
+	    新文件    		   10412	image.js  0%  100%  
+	  新目录           8	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracoimg\Langs\
+	    新文件    		    1495	en_dlg.js  0%  100%  
+	    新文件    		    1498	en_us_dlg.js  0%  100%  
+	    新文件    		    1495	he_dlg.js  0%  100%  
+	    新文件    		    1583	it_dlg.js  0%  100%  
+	    新文件    		    1694	ja_dlg.js  0%  100%  
+	    新文件    		    2314	ru_dlg.js  0%  100%  
+	    新文件    		    1536	sv_dlg.js  0%  100%  
+	    新文件    		    1346	zh_dlg.js  0%  100%  
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracolink\
+	    新文件    		    1860	editor_plugin_src.js  0%  100%  
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracolink\Js\
+	    新文件    		   17755	umbracolink.js  0%  100%  
+	  新目录          16	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracolink\Langs\
+	    新文件    		    1944	da_dlg.js  0%  100%  
+	    新文件    		    1955	de_dlg.js  0%  100%  
+	    新文件    		    1667	en_dlg.js  0%  100%  
+	    新文件    		    1670	en_us_dlg.js  0%  100%  
+	    新文件    		    1985	fi_dlg.js  0%  100%  
+	    新文件    		    2120	fr_dlg.js  0%  100%  
+	    新文件    		    4332	he_dlg.js  0%  100%  
+	    新文件    		    1864	it_dlg.js  0%  100%  
+	    新文件    		    3274	ja_dlg.js  0%  100%  
+	    新文件    		    1710	nl_dlg.js  0%  100%  
+	    新文件    		    1871	no_dlg.js  0%  100%  
+	    新文件    		    2012	pl_dlg.js  0%  100%  
+	    新文件    		    1962	pt_dlg.js  0%  100%  
+	    新文件    		    2727	ru_dlg.js  0%  100%  
+	    新文件    		    1846	sv_dlg.js  0%  100%  
+	    新文件    		    2326	zh_dlg.js  0%  100%  
+	  新目录           2	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracomacro\
+	    新文件    		     991	dialog.htm  0%  100%  
+	    新文件    		    6151	editor_plugin_src.js  0%  100%  
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracomacro\Img\
+	    新文件    		     603	insMacro.gif  0%  100%  
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracomacro\Js\
+	    新文件    		     609	dialog.js  0%  100%  
+	  新目录          14	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracomacro\Langs\
+	    新文件    		      69	en.js  0%  100%  
+	    新文件    		      82	en_dlg.js  0%  100%  
+	    新文件    		      72	en_us.js  0%  100%  
+	    新文件    		      85	en_us_dlg.js  0%  100%  
+	    新文件    		      79	he.js  0%  100%  
+	    新文件    		      82	he_dlg.js  0%  100%  
+	    新文件    		      75	ja.js  0%  100%  
+	    新文件    		      90	ja_dlg.js  0%  100%  
+	    新文件    		      86	ru.js  0%  100%  
+	    新文件    		      81	ru_dlg.js  0%  100%  
+	    新文件    		      69	sv.js  0%  100%  
+	    新文件    		      92	sv_dlg.js  0%  100%  
+	    新文件    		      66	zh.js  0%  100%  
+	    新文件    		      72	zh_dlg.js  0%  100%  
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracopaste\
+	    新文件    		    1753	editor_plugin_src.js  0%  100%  
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Umbracoshortcut\
+	    新文件    		    1255	editor_plugin_src.js  0%  100%  
+	  新目录           2	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Visualblocks\
+	    新文件    		     958	editor_plugin.js  0%  100%  
+	    新文件    		    1712	editor_plugin_src.js  0%  100%  
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Visualblocks\Css\
+	    新文件    		    3040	visualblocks.css  0%  100%  
+	  新目录           2	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Visualchars\
+	    新文件    		    1368	editor_plugin.js  0%  100%  
+	    新文件    		    2195	editor_plugin_src.js  0%  100%  
+	  新目录           2	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Wordcount\
+	    新文件    		    1960	editor_plugin.js  0%  100%  
+	    新文件    		    3331	editor_plugin_src.js  0%  100%  
+	  新目录           8	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Xhtmlxtras\
+	    新文件    		    6243	abbr.htm  0%  100%  
+	    新文件    		    6258	acronym.htm  0%  100%  
+	    新文件    		    6232	attributes.htm  0%  100%  
+	    新文件    		    6243	cite.htm  0%  100%  
+	    新文件    		    7294	del.htm  0%  100%  
+	    新文件    		    2756	editor_plugin.js  0%  100%  
+	    新文件    		    4098	editor_plugin_src.js  0%  100%  
+	    新文件    		    7299	ins.htm  0%  100%  
+	  新目录           2	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Xhtmlxtras\Css\
+	    新文件    		     197	attributes.css  0%  100%  
+	    新文件    		     514	popup.css  0%  100%  
+	  新目录           7	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Xhtmlxtras\Js\
+	    新文件    		     541	abbr.js  0%  100%  
+	    新文件    		     559	acronym.js  0%  100%  
+	    新文件    		    3471	attributes.js  0%  100%  
+	    新文件    		     541	cite.js  0%  100%  
+	    新文件    		    1356	del.js  0%  100%  
+	    新文件    		    7159	element_common.js  0%  100%  
+	    新文件    		    1356	ins.js  0%  100%  
+	  新目录          16	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Plugins\Xhtmlxtras\Langs\
+	    新文件    		    1194	da_dlg.js  0%  100%  
+	    新文件    		    1141	de_dlg.js  0%  100%  
+	    新文件    		    1092	en_dlg.js  0%  100%  
+	    新文件    		    1095	en_us_dlg.js  0%  100%  
+	    新文件    		    1214	fi_dlg.js  0%  100%  
+	    新文件    		    1195	fr_dlg.js  0%  100%  
+	    新文件    		    2222	he_dlg.js  0%  100%  
+	    新文件    		    1181	it_dlg.js  0%  100%  
+	    新文件    		    1531	ja_dlg.js  0%  100%  
+	    新文件    		    1149	nl_dlg.js  0%  100%  
+	    新文件    		    1147	no_dlg.js  0%  100%  
+	    新文件    		    1159	pl_dlg.js  0%  100%  
+	    新文件    		    1140	pt_dlg.js  0%  100%  
+	    新文件    		    2564	ru_dlg.js  0%  100%  
+	    新文件    		    1157	sv_dlg.js  0%  100%  
+	    新文件    		    1372	zh_dlg.js  0%  100%  
+	  新目录           0	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\
+	  新目录          10	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Advanced\
+	    新文件    		    2701	about.htm  0%  100%  
+	    新文件    		    1167	anchor.htm  0%  100%  
+	    新文件    		    2251	charmap.htm  0%  100%  
+	    新文件    		    3317	color_picker.htm  0%  100%  
+	    新文件    		   26734	editor_template.js  0%  100%  
+	    新文件    		   43419	editor_template_src.js  0%  100%  
+	    新文件    		    4038	image.htm  0%  100%  
+	    新文件    		    2527	link.htm  0%  100%  
+	    新文件    		    1732	shortcuts.htm  0%  100%  
+	    新文件    		    1269	source_editor.htm  0%  100%  
+	  新目录          11	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Advanced\Img\
+	    新文件    		    2584	colorpicker.jpg  0%  100%  
+	    新文件    		     239	flash.gif  0%  100%  
+	    新文件    		   11982	icons.gif  0%  100%  
+	    新文件    		     600	iframe.gif  0%  100%  
+	    新文件    		     325	pagebreak.gif  0%  100%  
+	    新文件    		     301	quicktime.gif  0%  100%  
+	    新文件    		     439	realmedia.gif  0%  100%  
+	    新文件    		     384	shockwave.gif  0%  100%  
+	    新文件    		      43	trans.gif  0%  100%  
+	    新文件    		     597	video.gif  0%  100%  
+	    新文件    		     415	windowsmedia.gif  0%  100%  
+	  新目录           7	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Advanced\Js\
+	    新文件    		    2203	about.js  0%  100%  
+	    新文件    		    1498	anchor.js  0%  100%  
+	    新文件    		   15793	charmap.js  0%  100%  
+	    新文件    		   14559	color_picker.js  0%  100%  
+	    新文件    		    6391	image.js  0%  100%  
+	    新文件    		    4947	link.js  0%  100%  
+	    新文件    		    1694	source_editor.js  0%  100%  
+	  新目录          28	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Advanced\Langs\
+	    新文件    		    2547	da.js  0%  100%  
+	    新文件    		    2201	da_dlg.js  0%  100%  
+	    新文件    		    2623	de.js  0%  100%  
+	    新文件    		    2152	de_dlg.js  0%  100%  
+	    新文件    		    2341	en.js  0%  100%  
+	    新文件    		    1981	en_dlg.js  0%  100%  
+	    新文件    		    2767	fi.js  0%  100%  
+	    新文件    		    2287	fi_dlg.js  0%  100%  
+	    新文件    		    2782	fr.js  0%  100%  
+	    新文件    		    2341	fr_dlg.js  0%  100%  
+	    新文件    		    5268	he.js  0%  100%  
+	    新文件    		    4766	he_dlg.js  0%  100%  
+	    新文件    		    2771	it.js  0%  100%  
+	    新文件    		    2120	it_dlg.js  0%  100%  
+	    新文件    		    3775	ja.js  0%  100%  
+	    新文件    		    3416	ja_dlg.js  0%  100%  
+	    新文件    		    2329	nl.js  0%  100%  
+	    新文件    		    2040	nl_dlg.js  0%  100%  
+	    新文件    		    2400	no.js  0%  100%  
+	    新文件    		    2124	no_dlg.js  0%  100%  
+	    新文件    		    2869	pl.js  0%  100%  
+	    新文件    		    2298	pl_dlg.js  0%  100%  
+	    新文件    		    2714	pt.js  0%  100%  
+	    新文件    		    2217	pt_dlg.js  0%  100%  
+	    新文件    		    2502	sv.js  0%  100%  
+	    新文件    		    2205	sv_dlg.js  0%  100%  
+	    新文件    		    3059	zh.js  0%  100%  
+	    新文件    		    2544	zh_dlg.js  0%  100%  
+	  新目录           0	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Advanced\Skins\
+	  新目录           3	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Advanced\Skins\Default\
+	    新文件    		    2607	content.css  0%  100%  
+	    新文件    		    5761	dialog.css  0%  100%  
+	    新文件    		   15959	ui.css  0%  100%  
+	  新目录           6	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Advanced\Skins\Default\Img\
+	    新文件    		    3133	buttons.png  0%  100%  
+	    新文件    		      64	items.gif  0%  100%  
+	    新文件    		      68	menu_arrow.gif  0%  100%  
+	    新文件    		      70	menu_check.gif  0%  100%  
+	    新文件    		    1787	progress.gif  0%  100%  
+	    新文件    		    1322	tabs.gif  0%  100%  
+	  新目录           3	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Advanced\Skins\Highcontrast\
+	    新文件    		    1122	content.css  0%  100%  
+	    新文件    		    5219	dialog.css  0%  100%  
+	    新文件    		    8886	ui.css  0%  100%  
+	  新目录           5	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Advanced\Skins\O2k7\
+	    新文件    		    2331	content.css  0%  100%  
+	    新文件    		    5849	dialog.css  0%  100%  
+	    新文件    		   15405	ui.css  0%  100%  
+	    新文件    		    1695	ui_black.css  0%  100%  
+	    新文件    		     860	ui_silver.css  0%  100%  
+	  新目录           3	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Advanced\Skins\O2k7\Img\
+	    新文件    		    2766	button_bg.png  0%  100%  
+	    新文件    		     651	button_bg_black.png  0%  100%  
+	    新文件    		    2084	button_bg_silver.png  0%  100%  
+	  新目录           2	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Simple\
+	    新文件    		    2226	editor_template.js  0%  100%  
+	    新文件    		    3205	editor_template_src.js  0%  100%  
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Simple\Img\
+	    新文件    		     806	icons.gif  0%  100%  
+	  新目录          14	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Simple\Langs\
+	    新文件    		     359	da.js  0%  100%  
+	    新文件    		     355	de.js  0%  100%  
+	    新文件    		     347	en.js  0%  100%  
+	    新文件    		     376	fi.js  0%  100%  
+	    新文件    		     349	fr.js  0%  100%  
+	    新文件    		     539	he.js  0%  100%  
+	    新文件    		     345	it.js  0%  100%  
+	    新文件    		     487	ja.js  0%  100%  
+	    新文件    		     326	nl.js  0%  100%  
+	    新文件    		     309	no.js  0%  100%  
+	    新文件    		     382	pl.js  0%  100%  
+	    新文件    		     351	pt.js  0%  100%  
+	    新文件    		     347	sv.js  0%  100%  
+	    新文件    		     401	zh.js  0%  100%  
+	  新目录           0	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Simple\Skins\
+	  新目录           2	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Simple\Skins\Default\
+	    新文件    		     513	content.css  0%  100%  
+	    新文件    		    2105	ui.css  0%  100%  
+	  新目录           2	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Simple\Skins\O2k7\
+	    新文件    		     461	content.css  0%  100%  
+	    新文件    		    2340	ui.css  0%  100%  
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Simple\Skins\O2k7\Img\
+	    新文件    		    5102	button_bg.png  0%  100%  
+	  新目录           9	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Umbraco\
+	    新文件    		    2682	about.htm  0%  100%  
+	    新文件    		    1091	anchor.htm  0%  100%  
+	    新文件    		    2339	charmap.htm  0%  100%  
+	    新文件    		    3333	color_picker.htm  0%  100%  
+	    新文件    		   43516	editor_template_src.js  0%  100%  
+	    新文件    		    4046	image.htm  0%  100%  
+	    新文件    		    2547	link.htm  0%  100%  
+	    新文件    		    1730	shortcuts.htm  0%  100%  
+	    新文件    		    1382	source_editor.htm  0%  100%  
+	  新目录          11	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Umbraco\Img\
+	    新文件    		    2584	colorpicker.jpg  0%  100%  
+	    新文件    		     239	flash.gif  0%  100%  
+	    新文件    		   11982	icons.gif  0%  100%  
+	    新文件    		     600	iframe.gif  0%  100%  
+	    新文件    		     325	pagebreak.gif  0%  100%  
+	    新文件    		     301	quicktime.gif  0%  100%  
+	    新文件    		     439	realmedia.gif  0%  100%  
+	    新文件    		     384	shockwave.gif  0%  100%  
+	    新文件    		      43	trans.gif  0%  100%  
+	    新文件    		     597	video.gif  0%  100%  
+	    新文件    		     415	windowsmedia.gif  0%  100%  
+	  新目录           7	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Umbraco\Js\
+	    新文件    		    2203	about.js  0%  100%  
+	    新文件    		    1193	anchor.js  0%  100%  
+	    新文件    		   15793	charmap.js  0%  100%  
+	    新文件    		   14559	color_picker.js  0%  100%  
+	    新文件    		    6391	image.js  0%  100%  
+	    新文件    		    4884	link.js  0%  100%  
+	    新文件    		    1694	source_editor.js  0%  100%  
+	  新目录          30	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Umbraco\Langs\
+	    新文件    		    2109	da.js  0%  100%  
+	    新文件    		    1926	da_dlg.js  0%  100%  
+	    新文件    		    2265	de.js  0%  100%  
+	    新文件    		    1860	de_dlg.js  0%  100%  
+	    新文件    		    2488	en.js  0%  100%  
+	    新文件    		    2066	en_dlg.js  0%  100%  
+	    新文件    		    2491	en_us.js  0%  100%  
+	    新文件    		    2069	en_us_dlg.js  0%  100%  
+	    新文件    		    2232	es.js  0%  100%  
+	    新文件    		    1998	es_dlg.js  0%  100%  
+	    新文件    		    2294	fr.js  0%  100%  
+	    新文件    		    1964	fr_dlg.js  0%  100%  
+	    新文件    		    2209	he.js  0%  100%  
+	    新文件    		    1987	he_dlg.js  0%  100%  
+	    新文件    		    2669	it.js  0%  100%  
+	    新文件    		    2058	it_dlg.js  0%  100%  
+	    新文件    		    2727	ja.js  0%  100%  
+	    新文件    		    2429	ja_dlg.js  0%  100%  
+	    新文件    		    2823	ko.js  0%  100%  
+	    新文件    		    2147	ko_dlg.js  0%  100%  
+	    新文件    		    1946	nl.js  0%  100%  
+	    新文件    		    1768	nl_dlg.js  0%  100%  
+	    新文件    		    1948	no.js  0%  100%  
+	    新文件    		    1846	no_dlg.js  0%  100%  
+	    新文件    		    3405	ru.js  0%  100%  
+	    新文件    		    2725	ru_dlg.js  0%  100%  
+	    新文件    		    2012	sv.js  0%  100%  
+	    新文件    		    1912	sv_dlg.js  0%  100%  
+	    新文件    		    2409	zh.js  0%  100%  
+	    新文件    		    2070	zh_dlg.js  0%  100%  
+	  新目录           0	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Umbraco\Skins\
+	  新目录           3	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Umbraco\Skins\Umbraco\
+	    新文件    		    1367	content.css  0%  100%  
+	    新文件    		    5364	dialog.css  0%  100%  
+	    新文件    		   16035	ui.css  0%  100%  
+	  新目录           6	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Themes\Umbraco\Skins\Umbraco\Img\
+	    新文件    		    4579	buttons.png  0%  100%  
+	    新文件    		      70	items.gif  0%  100%  
+	    新文件    		      68	menu_arrow.gif  0%  100%  
+	    新文件    		      70	menu_check.gif  0%  100%  
+	    新文件    		    1787	progress.gif  0%  100%  
+	    新文件    		    1326	tabs.gif  0%  100%  
+	  新目录           4	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tinymce3\Utils\
+	    新文件    		    2046	editable_selects.js  0%  100%  
+	    新文件    		    5991	form_utils.js  0%  100%  
+	    新文件    		    4055	mctabs.js  0%  100%  
+	    新文件    		    6100	validate.js  0%  100%  
+	  新目录          11	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tree\
+	    新文件    		    2638	jquery.tree.checkbox.js  0%  100%  
+	    新文件    		    9637	jquery.tree.contextmenu.js  0%  100%  
+	    新文件    		  114705	jquery.tree.js  0%  100%  
+	    新文件    		     548	jquery.tree.metadata.js  0%  100%  
+	    新文件    		    1642	menuIcons.css  0%  100%  
+	    新文件    		    1866	NodeDefinition.js  0%  100%  
+	    新文件    		   12897	sprites.png  0%  100%  
+	    新文件    		    7307	sprites_ie6.gif  0%  100%  
+	    新文件    		    2597	treeIcons.css  0%  100%  
+	    新文件    		    3662	UmbracoContext.js  0%  100%  
+	    新文件    		   55287	UmbracoTree.js  0%  100%  
+	  新目录           5	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tree\Themes\
+	    新文件    		      61	marker.gif  0%  100%  
+	    新文件    		      62	marker_rtl.gif  0%  100%  
+	    新文件    		      52	plus.gif  0%  100%  
+	    新文件    		     720	remove.png  0%  100%  
+	    新文件    		    3867	rename.png  0%  100%  
+	  新目录           4	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tree\Themes\Default\
+	    新文件    		      43	dot_for_ie.gif  0%  100%  
+	    新文件    		    6680	icons.png  0%  100%  
+	    新文件    		    2435	style.css  0%  100%  
+	    新文件    		    1844	throbber.gif  0%  100%  
+	  新目录          21	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Tree\Themes\Umbraco\
+	    新文件    		    1600	arrows.png  0%  100%  
+	    新文件    		    2910	check_0.png  0%  100%  
+	    新文件    		    3197	check_1.png  0%  100%  
+	    新文件    		    3283	check_2.png  0%  100%  
+	    新文件    		      35	context.gif  0%  100%  
+	    新文件    		      54	contextMenuBg.gif  0%  100%  
+	    新文件    		    3329	create.png  0%  100%  
+	    新文件    		      43	dot.gif  0%  100%  
+	    新文件    		    3237	f.png  0%  100%  
+	    新文件    		      60	fminus.gif  0%  100%  
+	    新文件    		      59	fminus_rtl.gif  0%  100%  
+	    新文件    		     108	fplus.gif  0%  100%  
+	    新文件    		     108	fplus_rtl.gif  0%  100%  
+	    新文件    		    6680	icons.png  0%  100%  
+	    新文件    		      55	lastli.gif  0%  100%  
+	    新文件    		      54	lastli_rtl.gif  0%  100%  
+	    新文件    		      47	li.gif  0%  100%  
+	    新文件    		     381	newVersion_overlay.png  0%  100%  
+	    新文件    		     282	protect_overlay.gif  0%  100%  
+	    新文件    		    5258	style.css  0%  100%  
+	    新文件    		    1844	throbber.gif  0%  100%  
+	  新目录          14	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Ui\
+	    新文件    		   52012	base2.js  0%  100%  
+	    新文件    		    4482	dd.css  0%  100%  
+	    新文件    		     138	dd_arrow.gif  0%  100%  
+	    新文件    		   13659	default.css  0%  100%  
+	    新文件    		    2324	default.js  0%  100%  
+	    新文件    		    1423	jquery.alphanumeric.js  0%  100%  
+	    新文件    		   51648	jquery.dd.js  0%  100%  
+	    新文件    		   85582	jquery.js  0%  100%  
+	    新文件    		    3581	jquery.tooltip.min.js  0%  100%  
+	    新文件    		  240439	jqueryui.js  0%   54%  100%  
+	    新文件    		    1943	jQueryWresize.js  0%  100%  
+	    新文件    		    3954	json2.js  0%  100%  
+	    新文件    		   41412	knockout.js  0%  100%  
+	    新文件    		    8687	knockout.mapping.js  0%  100%  
+	  新目录           1	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Ui\ui-lightness\
+	    新文件    		   33967	jquery-ui.custom.css  0%  100%  
+	  新目录          14	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\packages\UmbracoCms.7.5.13\UmbracoFiles\Umbraco_Client\Ui\ui-lightness\images\
+	    新文件    		     260	ui-bg_diagonals-thick_18_b81900_40x40.png  0%  100%  
+	    新文件    		     251	ui-bg_diagonals-thick_20_666666_40x40.png  0%  100%  
+	    新文件    		     178	ui-bg_flat_10_000000_40x100.png  0%  100%  
+	    新文件    		     104	ui-bg_glass_100_f6f6f6_1x400.png  0%  100%  
+	    新文件    		     125	ui-bg_glass_100_fdf5ce_1x400.png  0%  100%  
+	    新文件    		     105	ui-bg_glass_65_ffffff_1x400.png  0%  100%  
+	    新文件    		    3762	ui-bg_gloss-wave_35_f6a828_500x100.png  0%  100%  
+	    新文件    		      90	ui-bg_highlight-soft_100_eeeeee_1x100.png  0%  100%  
+	    新文件    		     129	ui-bg_highlight-soft_75_ffe45c_1x100.png  0%  100%  
+	    新文件    		    4369	ui-icons_222222_256x240.png  0%  100%  
+	    新文件    		    4369	ui-icons_228ef1_256x240.png  0%  100%  
+	    新文件    		    4369	ui-icons_ef8c08_256x240.png  0%  100%  
+	    新文件    		    4369	ui-icons_ffd27a_256x240.png  0%  100%  
+	    新文件    		    4369	ui-icons_ffffff_256x240.png  0%  100%  
+
+------------------------------------------------------------------------------
+
+                  总数        复制        跳过       不匹配        失败        其他
+       目录:       204       203         1         0         0         0
+       文件:       999       999         0         0         0         0
+       字节:    6.14 m    6.14 m         0         0         0         0
+       时间:   0:00:02   0:00:02                       0:00:00   0:00:00
+
+
+       速度:             2700379 字节/秒。
+       速度:             154.516 MB/分钟。
+
+       结束: Fri Apr 21 21:35:30 2017

@@ -1,0 +1,72 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Windows 的可靠文件复制                              
+-------------------------------------------------------------------------------
+
+  开始时间: Fri Apr 21 21:35:22 2017
+
+        源: C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\RihicoWeb\Config\
+      目标: C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\RihicoWeb\App_Data\NuGetBackup\20170421-213522\Config\
+
+      文件: *.*
+	    
+      选项: *.* /S /E /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                  18	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\RihicoWeb\Config\
+	    新文件    		     305	404handlers.config  0%  100%  
+	    新文件    		     681	applications.config  0%  100%  
+	    新文件    		     739	BaseRestExtensions.config  0%  100%  
+	    新文件    		    3981	ClientDependency.config  0%  100%  
+	    新文件    		    2957	Dashboard.config  0%  100%  
+	    新文件    		    7088	EmbeddedMedia.config  0%  100%  
+	    新文件    		    1261	ExamineIndex.config  0%  100%  
+	    新文件    		    1834	ExamineSettings.config  0%  100%  
+	    新文件    		     429	feedProxy.config  0%  100%  
+	    新文件    		     286	FileSystemProviders.config  0%  100%  
+	    新文件    		    1023	grid.editors.config.js  0%  100%  
+	    新文件    		    1114	log4net.config  0%  100%  
+	    新文件    		      72	metablogConfig.config  0%  100%  
+	    新文件    		     837	scripting.config  0%  100%  
+	    新文件    		   12446	tinyMceConfig.config  0%  100%  
+	    新文件    		    5782	trees.config  0%  100%  
+	    新文件    		    8784	umbracoSettings.config  0%  100%  
+	    新文件    		     502	UrlRewriting.config  0%  100%  
+	  新目录           3	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\RihicoWeb\Config\imageprocessor\
+	    新文件    		     378	cache.config  0%  100%  
+	    新文件    		    3934	processing.config  0%  100%  
+	    新文件    		    1064	security.config  0%  100%  
+	  新目录          18	C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\RihicoWeb\Config\Lang\
+	    新文件    		      81	cs-CZ.user.xml  0%  100%  
+	    新文件    		      79	da-DK.user.xml  0%  100%  
+	    新文件    		      79	de-DE.user.xml  0%  100%  
+	    新文件    		      79	en-GB.user.xml  0%  100%  
+	    新文件    		      79	en-US.user.xml  0%  100%  
+	    新文件    		      79	es-ES.user.xml  0%  100%  
+	    新文件    		      79	fr-FR.user.xml  0%  100%  
+	    新文件    		      82	he-IL.user.xml  0%  100%  
+	    新文件    		      82	it-IT.user.xml  0%  100%  
+	    新文件    		      79	ja-JP.user.xml  0%  100%  
+	    新文件    		      82	ko-KR.user.xml  0%  100%  
+	    新文件    		      82	nb-NO.user.xml  0%  100%  
+	    新文件    		      79	nl-NL.user.xml  0%  100%  
+	    新文件    		      82	pl-PL.user.xml  0%  100%  
+	    新文件    		      82	pt-BR.user.xml  0%  100%  
+	    新文件    		      79	ru-RU.user.xml  0%  100%  
+	    新文件    		      82	sv-SE.user.xml  0%  100%  
+	    新文件    		      78	zh-CN.user.xml  0%  100%  
+
+------------------------------------------------------------------------------
+
+                  总数        复制        跳过       不匹配        失败        其他
+       目录:         3         2         1         0         0         0
+       文件:        39        39         0         0         0         0
+       字节:    55.6 k    55.6 k         0         0         0         0
+       时间:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+       速度:              694402 字节/秒。
+       速度:              39.734 MB/分钟。
+
+       结束: Fri Apr 21 21:35:22 2017
