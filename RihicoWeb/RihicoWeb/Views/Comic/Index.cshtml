@@ -14,7 +14,15 @@
             @Html.TextBoxFor(x => x.Url, new { ng_model = "model.url", @class = "form-control" })
             <br />
             <button class="btn btn-success form-control" ng-click="getComic()">GetComic</button>
+            <div id="viewResult" ng-repeat="comic in model.comicList">
+                
+            </div>
+            <table id="viewResultTbl" class="table table-striped">
+                <tr ng-repeat="comic in model.comicList">
+                    <td>{{comic.label}}</td>
+                    <td>{{comic.url}}</td>
+                </tr>
+            </table>
         </div>
-        {{comics}}
     </div>
 </div>

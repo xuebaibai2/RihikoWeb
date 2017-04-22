@@ -3529,11 +3529,11 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Application\CONSTVALUE.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\api\ComicAPIController.cs" />
     <Compile Include="Controllers\api\MasterAPIController.cs" />
-    <Compile Include="Controllers\api\NotUmbracoAPIController.cs" />
     <Compile Include="Controllers\frontend\GetComicController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

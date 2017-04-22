@@ -1,22 +1,35 @@
 ﻿var app = angular.module('getComic', ['ngResource']);
 app.controller('getComicController', function ($scope, getComicResource) {
     $scope.model = {};
-    $scope.users = getComicResource.getUser.query();
+    $scope.model.comicList = [];
     $scope.comics = getComicResource.getComics.query();
-    console.log(getComicResource.getAnotherComics.query());
-    $scope.getComic = function () {
+    $scope.htmlParser = new DOMParser();
 
+    var comicObj = function (label, url) {
+        this.label = label;
+        this.url = url;
+    }
+
+    $scope.getComic = function () {
+        getComicResource.getUrlContent($scope.model.url).then(function (res) {
+            $scope.model.mainUrlContentAsString = res.data;
+            $scope.model.mainUrlContentDom = $scope.htmlParser.parseFromString($scope.model.mainUrlContentAsString, "text/html");
+            var comicList = $($scope.model.mainUrlContentDom).find('div#mhmain ul div.round li:nth-of-type(2) a');
+            comicList.map(function (index, value) {
+                $scope.model.comicList.push(new comicObj($(value).attr('title'), $scope.model.url + $(value).attr("href")));
+            });
+        });
     };
 });
-app.factory("getComicResource", function ($resource) {
+app.factory("getComicResource", function ($resource, $http) {
     return {
-        getUser: $resource('https://jsonplaceholder.typicode.com/users/:user', { user: '@user' }, {
-            update: {
-                method: 'PUT'
-            }
-        }),
         getComics: $resource('/Umbraco/webAPI/ComicAPI/GetAllComic'),
-        getAnotherComics: $resource('/api/NotUmbracoAPI/GetAllComic')
+        getUrlContent: function (url) {
+            return $http.get('/Umbraco/webAPI/ComicAPI/GetUrlContent/',
+                {
+                    params: { url: url }
+                });
+        }
     }
 })
 //return {
