@@ -21,7 +21,7 @@ namespace RihicoWeb.Controllers.api
             return new[] { "One Piece", "Naruto", "Bleech" };
         }
 
-        public async Task<string> GetUrlContent(string url)
+        public async Task<dynamic> GetUrlContent(string url)
         {
             using (WebClient wc = new WebClient())
             {
@@ -29,12 +29,11 @@ namespace RihicoWeb.Controllers.api
                 wc.Headers.Add("Content-Type", CONSTVALUE.CONTENT_TYPE);
                 try
                 {
-
                     return await wc.DownloadStringTaskAsync(new Uri(url));
                 }
                 catch (Exception ex)
                 {
-                    return ex.Message;
+                    return ex;
                 }
             }
         }
