@@ -3,11 +3,18 @@
 @{
     Layout = "~/Views/umbLayout.cshtml";
 }
+<script src="~/Scripts/frontend/getcomic.js"></script>
+<div id="main-wrapper" ng-app="getComic" ng-controller="getComicController">
+    <div id="main" class="container">
+        <div class="row">
+            <h2>漫画取回器</h2>
+            <hr />
 
-<h2>漫画取回器</h2>
-<hr />
-
-@Html.LabelFor(x => x.Url)
-@Html.TextBoxFor(x => x.Url)
-
-<button>GetComic</button>
+            @Html.LabelFor(x => x.Url)
+            @Html.TextBoxFor(x => x.Url, new { ng_model = "model.url", @class = "form-control" })
+            <br />
+            <button class="btn btn-success form-control" ng-click="getComic()">GetComic</button>
+        </div>
+        {{comics}}
+    </div>
+</div>
