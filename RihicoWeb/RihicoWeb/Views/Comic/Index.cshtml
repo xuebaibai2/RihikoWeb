@@ -15,14 +15,42 @@
             <br />
             <button class="btn btn-success form-control" ng-click="getComic()">GetComic</button>
             <div id="viewResult" ng-repeat="comic in model.comicList">
-                
+
             </div>
             <table id="viewResultTbl" class="table table-striped">
-                <tr ng-repeat="comic in model.comicList">
-                    <td>{{comic.label}}</td>
-                    <td>{{comic.url}}</td>
-                </tr>
+                <thead>
+                    <tr>
+                        <th>漫画名儿</th>
+                        <td>漫画链接</td>
+                        <td>详情</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="comic in model.comicList">
+                        <td>{{comic.label}}</td>
+                        <td>{{comic.url}}</td>
+                        <td><button class="btn btn-primary" ng-click="getComicDetail(comic.label, comic.url)">详情</button></td>
+                    </tr>
+                </tbody>
             </table>
         </div>
+    </div>
+    <div id="comicDetailModal" style="display:none;">
+        <table id="comicDetailTbl" class="table table-striped">
+            <thead>
+                <tr>
+                    <th>集名</th>
+                    <td>链接</td>
+                    <td>下载</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="comic in model.comicChapterList">
+                    <td>{{comic.label}}</td>
+                    <td>{{comic.url}}</td>
+                    <td><button class="btn btn-primary" ng-click="downloadComic(comic.label, comic.url)">下载</button></td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 </div>

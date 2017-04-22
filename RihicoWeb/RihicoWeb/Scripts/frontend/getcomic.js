@@ -1,9 +1,13 @@
 ﻿var app = angular.module('getComic', ['ngResource']);
 app.controller('getComicController', function ($scope, getComicResource) {
     $scope.model = {};
+    $scope.model.url = 'http://manhua.fzdm.com/';
     $scope.model.comicList = [];
+    $scope.model.comicChapterList = [];
     $scope.comics = getComicResource.getComics.query();
     $scope.htmlParser = new DOMParser();
+
+
 
     var comicObj = function (label, url) {
         this.label = label;
@@ -18,8 +22,35 @@ app.controller('getComicController', function ($scope, getComicResource) {
             comicList.map(function (index, value) {
                 $scope.model.comicList.push(new comicObj($(value).attr('title'), $scope.model.url + $(value).attr("href")));
             });
+            initModal();
         });
     };
+
+    $scope.getComicDetail = function (label, url) {
+        $scope.model.comicChapterList = [];
+        getComicResource.getUrlContent(url).then(function (res) {
+            $scope.model.comicDetailContentAsString = res.data;
+            $scope.model.comicDetailContentDom = $scope.htmlParser.parseFromString($scope.model.comicDetailContentAsString, "text/html");
+            var comicChapterList = $($scope.model.comicDetailContentDom).find('div#content li a');
+            comicChapterList.map(function (index, value) {
+                $scope.model.comicChapterList.push(new comicObj($(value).attr('title'), url + $(value).attr("href")));
+            });
+            $('#comicDetailModal').modal({
+                fadeDuration: 100,
+                showClose: false,
+            });
+        });
+    }
+
+    function initModal() {
+        $('button.comicDetailModal').click(function (event) {
+            event.preventDefault();
+            $.get(this.href, function (html) {
+                $(html).appendTo('body').modal();
+            });
+        });
+    }
+
 });
 app.factory("getComicResource", function ($resource, $http) {
     return {
