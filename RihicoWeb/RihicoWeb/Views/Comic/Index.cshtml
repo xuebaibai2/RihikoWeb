@@ -8,6 +8,7 @@
     <div id="main" class="container">
         <div class="row">
             <h2 class="text-center">漫画取回器</h2>
+            {{model.comicDownloadList}}
             <hr />
 
             @Html.LabelFor(x => x.Url)
@@ -35,6 +36,7 @@
             </table>
         </div>
     </div>
+    @* Modal Div *@
     <div id="comicDetailModal" style="display:none;">
         <table id="comicDetailTbl" class="table table-striped">
             <thead>

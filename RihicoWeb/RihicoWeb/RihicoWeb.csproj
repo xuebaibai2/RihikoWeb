@@ -3542,6 +3542,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Comic.cs" />
     <Compile Include="Models\ComicViewModel.cs" />
     <Compile Include="Models\RihikoViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
