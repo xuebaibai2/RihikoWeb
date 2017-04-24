@@ -14,10 +14,17 @@
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700|Open+Sans+Condensed:700" rel="stylesheet" />
-    <script src="/js/jquery.min.js"></script>
+    <script src="~/Scripts/jquery-3.1.1.min.js"></script>
     <script src="/js/config.js"></script>
     <script src="/js/skel.min.js"></script>
     <script src="/js/skel-panels.min.js"></script>
+    <script src="~/Scripts/bootstrap.js"></script>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <script src="~/Scripts/angular.js"></script>
+    <script src="~/Scripts/angular-resource.min.js"></script>
+    @*<link href="~/Content/jquery.modal.min.css" rel="stylesheet" />*@
+    <link href="~/Content/jquery.modal.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery.modal.min.js"></script>
     <noscript>
         <link rel="stylesheet" href="/css/skel-noscript.css" />
         <link rel="stylesheet" href="/css/style.css" />
@@ -57,7 +64,7 @@
         <div class="row">
             <!-- Copyright -->
             <div id="copyright">
-                &copy; @DateTime.Now.Year @Umbraco.Field("copyright", recursive: true) | Images: <a href="http://fotogrph.com">fotogrph</a> + <a href="http://iconify.it">Iconify.it</a> | Design: <a href="http://html5up.net/">HTML5 UP</a>
+                &copy; @DateTime.Now.Year @Umbraco.Field("copyright", recursive: true) 
             </div>
             <!-- /Copyright -->
         </div>

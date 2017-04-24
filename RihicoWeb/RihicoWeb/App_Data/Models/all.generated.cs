@@ -8,7 +8,7 @@ using  Umbraco.Web;
 using  Umbraco.ModelsBuilder;
 using  Umbraco.ModelsBuilder.Umbraco;
 [assembly: PureLiveAssembly]
-[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "d92a96df505b2ab8")]
+[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "6b1dae6e0b2deb55")]
 [assembly:System.Reflection.AssemblyVersion("0.0.0.1")]
 
 
@@ -401,6 +401,32 @@ namespace Umbraco.Web.PublishedContentModels
 		public object Image
 		{
 			get { return this.GetPropertyValue("image"); }
+		}
+	}
+
+	/// <summary>Comic</summary>
+	[PublishedContentModel("comic")]
+	public partial class Comic : UmbMaster
+	{
+#pragma warning disable 0109 // new is redundant
+		public new const string ModelTypeAlias = "comic";
+		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
+#pragma warning restore 0109
+
+		public Comic(IPublishedContent content)
+			: base(content)
+		{ }
+
+#pragma warning disable 0109 // new is redundant
+		public new static PublishedContentType GetModelContentType()
+		{
+			return PublishedContentType.Get(ModelItemType, ModelTypeAlias);
+		}
+#pragma warning restore 0109
+
+		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<Comic, TValue>> selector)
+		{
+			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
 		}
 	}
 

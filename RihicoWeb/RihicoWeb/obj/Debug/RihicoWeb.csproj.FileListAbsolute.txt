@@ -169,3 +169,7 @@ C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\RihicoWeb\bin\zh-Hans\System.We
 C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\RihicoWeb\obj\Debug\RihicoWeb.csprojResolveAssemblyReference.cache
 C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\RihicoWeb\obj\Debug\RihicoWeb.dll
 C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\RihicoWeb\obj\Debug\RihicoWeb.pdb
+C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\RihicoWeb\bin\EntityFramework.dll
+C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\RihicoWeb\bin\EntityFramework.SqlServer.dll
+C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\RihicoWeb\bin\EntityFramework.xml
+C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\RihicoWeb\bin\EntityFramework.SqlServer.xml
