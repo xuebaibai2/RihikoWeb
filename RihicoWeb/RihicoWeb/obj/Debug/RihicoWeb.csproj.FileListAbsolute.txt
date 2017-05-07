@@ -173,3 +173,5 @@ C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\RihicoWeb\bin\EntityFramework.d
 C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\RihicoWeb\bin\EntityFramework.SqlServer.dll
 C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\RihicoWeb\bin\EntityFramework.xml
 C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\RihicoWeb\bin\EntityFramework.SqlServer.xml
+C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\RihicoWeb\bin\Dropbox.Api.dll
+C:\Users\小白\Source\Repos\RihikoWeb\RihicoWeb\RihicoWeb\bin\Dropbox.Api.xml

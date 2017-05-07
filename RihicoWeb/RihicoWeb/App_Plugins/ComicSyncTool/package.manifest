@@ -1,0 +1,15 @@
+﻿{
+  propertyEditors: [
+  {
+	  alias: "Rihiko.ComicSyncTool",
+	  name: "ComicSyncTool",
+	  editor: {
+	  view: "~/App_Plugins/ComicSyncTool/comicsynctool.htm"
+	  }
+  }
+  ],
+  javascript: [
+	'~/App_Plugins/ComicSyncTool/comicsynctool.controller.js',
+	'~/App_Plugins/ComicSyncTool/comicsynctool.resource.js'
+  ]
+}
