@@ -1,0 +1,69 @@
+﻿ 2017-05-08 14:42:32,764 [P18036/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.13 application starting on ESITOZ68
+ 2017-05-08 14:42:32,788 [P18036/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-05-08 14:42:32,804 [P18036/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 16ms)
+ 2017-05-08 14:42:32,863 [P18036/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-05-08 14:42:32,864 [P18036/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-05-08 14:42:32,870 [P18036/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-05-08 14:42:33,541 [P18036/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 671ms)
+ 2017-05-08 14:42:33,559 [P18036/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-05-08 14:42:33,566 [P18036/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 7ms)
+ 2017-05-08 14:42:33,567 [P18036/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-05-08 14:42:33,575 [P18036/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 8ms)
+ 2017-05-08 14:42:33,595 [P18036/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-05-08 14:42:33,601 [P18036/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 6ms)
+ 2017-05-08 14:42:33,602 [P18036/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-05-08 14:42:33,617 [P18036/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 15ms)
+ 2017-05-08 14:42:33,723 [P18036/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-05-08 14:42:33,735 [P18036/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 11ms)
+ 2017-05-08 14:42:33,735 [P18036/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-05-08 14:42:33,744 [P18036/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 8ms)
+ 2017-05-08 14:42:35,282 [P18036/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-05-08 14:42:35,560 [P18036/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-05-08 14:42:35,578 [P18036/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-05-08 14:42:35,694 [P18036/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-05-08 14:42:35,757 [P18036/D2/T1] WARN  Umbraco.Core.Sync.DatabaseServerMessenger - No last synced Id found, this generally means this is a new server/install. The server will build its caches and indexes, and then adjust its last synced Id to the latest found in the database and maintain cache updates based on that Id.
+ 2017-05-08 14:42:35,818 [P18036/D2/T1] INFO  umbraco.content - Load Xml from file...
+ 2017-05-08 14:42:35,824 [P18036/D2/T1] INFO  umbraco.content - Loaded Xml from file.
+ 2017-05-08 14:42:35,845 [P18036/D2/T1] INFO  umbraco.content - Loading content from database...
+ 2017-05-08 14:42:36,865 [P18036/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 4189ms)
+ 2017-05-08 14:42:36,866 [P18036/D2/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - Rebuilding index, Provider=InternalMemberIndexer, NodeId=-1
+ 2017-05-08 14:42:36,966 [P18036/D2/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - Start data queries - member, Provider=InternalMemberIndexer, NodeId=-1
+ 2017-05-08 14:42:37,247 [P18036/D2/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - End data queries - member, took 281ms, Provider=InternalMemberIndexer, NodeId=-1
+ 2017-05-08 14:42:37,247 [P18036/D2/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - Rebuilding index, Provider=InternalIndexer, NodeId=-1
+ 2017-05-08 14:42:37,274 [P18036/D2/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - Start data queries - content, Provider=InternalIndexer, NodeId=-1
+ 2017-05-08 14:42:38,977 [P18036/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-05-08 14:42:38,992 [P18036/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 14ms)
+ 2017-05-08 14:42:39,269 [P18036/D2/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - End data queries - content, took 1993ms, Provider=InternalIndexer, NodeId=-1
+ 2017-05-08 14:42:39,269 [P18036/D2/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - Start data queries - media, Provider=InternalIndexer, NodeId=-1
+ 2017-05-08 14:42:39,646 [P18036/D2/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - End data queries - media, took 377ms, Provider=InternalIndexer, NodeId=-1
+ 2017-05-08 14:42:39,646 [P18036/D2/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - Rebuilding index, Provider=ExternalIndexer, NodeId=-1
+ 2017-05-08 14:42:39,670 [P18036/D2/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - Start data queries - content, Provider=ExternalIndexer, NodeId=-1
+ 2017-05-08 14:42:39,896 [P18036/D2/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - End data queries - content, took 225ms, Provider=ExternalIndexer, NodeId=-1
+ 2017-05-08 14:42:39,896 [P18036/D2/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - Start data queries - media, Provider=ExternalIndexer, NodeId=-1
+ 2017-05-08 14:42:40,020 [P18036/D2/T1] INFO  UmbracoExamine.DataServices.UmbracoLogService - PerformIndexAll - End data queries - media, took 123ms, Provider=ExternalIndexer, NodeId=-1
+ 2017-05-08 14:42:40,296 [P18036/D2/T7] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:64953/umbraco (UmbracoModule request)
+ 2017-05-08 14:42:41,904 [P18036/D2/T13] INFO  umbraco.content - Save Xml to file...
+ 2017-05-08 14:42:41,912 [P18036/D2/T13] INFO  umbraco.content - Saved Xml to file.
+ 2017-05-08 14:43:02,412 [P18036/D2/T23] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-05-08 14:43:13,095 [P18036/D2/T23] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-05-08 14:43:22,908 [P18036/D2/T23] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-05-08 14:43:22,916 [P18036/D2/T23] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 7ms)
+ 2017-05-08 14:43:23,469 [P18036/D2/T23] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username xuebaibai2 from IP address ::1
+ 2017-05-08 14:43:23,472 [P18036/D2/T23] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: xuebaibai2 logged in from IP address ::1
+ 2017-05-08 14:43:23,741 [P18036/D2/T23] ERROR Umbraco.Web.WebApi.Filters.AngularAntiForgeryHelper - Could not validate XSRF token
+System.Web.Mvc.HttpAntiForgeryException (0x80004005): The provided anti-forgery token was meant for user "abc", but the current user is "xuebaibai2".
+   at System.Web.Helpers.AntiXsrf.TokenValidator.ValidateTokens(HttpContextBase httpContext, IIdentity identity, AntiForgeryToken sessionToken, AntiForgeryToken fieldToken)
+   at System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext, String cookieToken, String formToken)
+   at System.Web.Helpers.AntiForgery.Validate(String cookieToken, String formToken)
+   at Umbraco.Web.WebApi.Filters.AngularAntiForgeryHelper.ValidateTokens(String cookieToken, String headerToken)
+ 2017-05-08 14:43:23,840 [P18036/D2/T23] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-05-08 14:43:23,848 [P18036/D2/T23] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 8ms)
+ 2017-05-08 14:43:24,403 [P18036/D2/T23] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2017-05-08 14:43:24,414 [P18036/D2/T23] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 10ms)
+ 2017-05-08 14:43:24,981 [P18036/D2/T23] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-05-08 14:43:24,981 [P18036/D2/T23] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-05-08 14:43:24,984 [P18036/D2/T23] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-05-08 14:43:24,995 [P18036/D2/T23] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 10ms)
+ 2017-05-08 14:43:25,486 [P18036/D2/T23] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-05-08 14:43:25,500 [P18036/D2/T23] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 13ms)
+ 2017-05-08 14:43:40,879 [P18036/D2/T19] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-05-07 14:43:40
