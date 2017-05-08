@@ -12,5 +12,11 @@ namespace RihicoWeb.Application
         public const string HTML_CONTENT_TYPE = "text/plain;charset=UTF-8";
 
         public const string IMG_CONTENT_TYPE = "image/jpeg";
+
+        public const string DROPBOX_SAVE_URL = "https://api.dropboxapi.com/1/save_url/auto/1";
+
+        public const string DROPBOX_WC_HEADER_CONTENTTYPE = "application/x-www-form-urlencoded";
+
+        public const string DROPBOX_WC_HEADER_AUTHORIZATION = "Bearer {0}";
     }
 }

@@ -1,6 +1,13 @@
-﻿using RihicoWeb.Models.backend;
+﻿using System;
+using RihicoWeb.Models.backend;
 using System.Collections.Generic;
+using System.Configuration;
+using System.Net;
+using System.Text;
+using System.Web;
 using System.Web.Http;
+using System.Web.Script.Serialization;
+using RihicoWeb.Application;
 using Umbraco.Web.WebApi;
 
 namespace RihicoWeb.Controllers.backend
@@ -11,12 +18,11 @@ namespace RihicoWeb.Controllers.backend
         [HttpGet]
         public dynamic Init()
         {
-            var comic = Services.MediaService.GetById(1070);
-            List<MediaModel> comicFolderList = new List<MediaModel>();
+            var comicFolderList = new List<MediaModel>();
             var result = Umbraco.Media(1070).Children;
             foreach (var folder in result)
             {
-                List<MediaModel> tempChildren = new List<MediaModel>();
+                var tempChildren = new List<MediaModel>();
                 foreach (var child in folder.Children)
                 {
                     tempChildren.Add(new MediaModel()
@@ -43,6 +49,34 @@ namespace RihicoWeb.Controllers.backend
                 });
             }
             return comicFolderList;
+        }
+
+        [HttpGet]
+        public dynamic SyncToDropbox(string chapter)
+        {
+            var chapterObj = new JavaScriptSerializer().Deserialize<MediaModel>(chapter);
+
+            var urlAuthority = "http://" + HttpContext.Current.Request.Url.Authority + "{0}";
+            const string myParameters = "url={0}&path={1}";
+            var sb = new StringBuilder();
+
+            foreach (var page in chapterObj.Children)
+            {
+                using (var wc = new WebClient())
+                {
+                    try
+                    {
+                        wc.Headers[HttpRequestHeader.ContentType] = CONSTVALUE.DROPBOX_WC_HEADER_CONTENTTYPE;
+                        wc.Headers[HttpRequestHeader.Authorization] = string.Format(CONSTVALUE.DROPBOX_WC_HEADER_AUTHORIZATION, ConfigurationManager.AppSettings["DropboxToken"]);
+                        sb.Append(wc.UploadString(CONSTVALUE.DROPBOX_SAVE_URL, string.Format(myParameters, string.Format(urlAuthority, page.Url), chapterObj.Name + "/" + page.Name + ".jpg")));
+                    }
+                    catch (Exception e)
+                    {
+                        return new { SB = sb, ERROR = e.Message };
+                    }
+                }
+            }
+            return sb.ToString();
         }
     }
 }
