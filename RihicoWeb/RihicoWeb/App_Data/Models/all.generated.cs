@@ -8,7 +8,7 @@ using  Umbraco.Web;
 using  Umbraco.ModelsBuilder;
 using  Umbraco.ModelsBuilder.Umbraco;
 [assembly: PureLiveAssembly]
-[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "6b1dae6e0b2deb55")]
+[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "7f6cf610530ee2f2")]
 [assembly:System.Reflection.AssemblyVersion("0.0.0.1")]
 
 
@@ -427,6 +427,15 @@ namespace Umbraco.Web.PublishedContentModels
 		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<Comic, TValue>> selector)
 		{
 			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
+		}
+
+		///<summary>
+		/// Comic Sync Tool: Sync downloaded comic into other service provider (Dropbox, Azure blob storage)
+		///</summary>
+		[ImplementPropertyType("comicSyncTool")]
+		public object ComicSyncTool
+		{
+			get { return this.GetPropertyValue("comicSyncTool"); }
 		}
 	}
 
